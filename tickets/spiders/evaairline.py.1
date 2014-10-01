@@ -1,0 +1,276 @@
+#-*- coding: utf-8 -*-
+
+import sys, exceptions
+import time, datetime
+import socket, re
+
+from scrapy.http import Request, TextResponse
+from scrapy.contrib.spiders import CrawlSpider
+
+from tickets.items import EvrAirlineTicket
+
+from pyvirtualdisplay import Display
+import selenium.webdriver.support.ui as ui
+from selenium import selenium
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import WebDriverException, TimeoutException, NoSuchElementException
+from selenium.webdriver.support.ui import Select
+
+from urlparse import urlparse, parse_qs
+
+class EvaAirlineSpider(CrawlSpider):
+    name = "EvaAirline"
+    allowed_domains = ["eservice.evaair.com", "wftc3.e-travel.com"]
+    start_urls = ["http://www.evaair.com/zh-tw/index.html"]
+    search_url = "http://www.evaair.com/zh-tw/index.html"
+
+    def __init__(self, fromArea, fromCity, dateStart, dateEnd):
+        self.fromCity = fromCity.lower()
+
+        self.fromArea = None
+        if fromArea == "europe":
+            self.fromArea = u"歐洲"
+        elif fromArea in ["asis", "china"]:
+            self.fromArea = u"亞洲"
+        elif fromArea == "america":
+            self.fromArea = u"美洲"
+        elif fromArea == "oceania":
+            self.fromArea = u"大洋洲"
+
+        self.dateStart = int(dateStart)
+        self.dateEnd = int(dateEnd)
+
+        self.destinationCities = []
+
+        self.tickets = []
+
+        CrawlSpider.__init__(self)
+        self.startWebDriver()
+ 
+    def startWebDriver(self):
+        self.display = Display(visible=0, size=(800, 600))
+        self.display.start()
+        self.webDriver = webdriver.Chrome()
+
+    def quitWebDriver(self):
+        self.webDriver.quit()
+        self.display.stop()
+
+    def optionClick(self, select, text):
+        for option in select.options:
+            #print text
+            #print option.text
+            if text in option.text.replace(u"年", "-").lower():
+                return option
+
+    def parse(self, response):
+        for plusDate in range(self.dateStart, self.dateEnd+1, 7):
+            flyingDate = datetime.date.today() + datetime.timedelta(days=int(plusDate))
+
+            destination = {}
+            # Get destination cities
+            try:
+                self.webDriver.get(EvaAirlineSpider.search_url)
+
+                goDepArea = self.webDriver.find_element_by_id("gDepArea")
+                self.optionClick(Select(goDepArea), self.fromArea).click()
+
+                goDep = self.webDriver.find_element_by_id("gGoDep")
+                option = self.optionClick(Select(goDep), self.fromCity)
+                if option:
+                    option.click()
+
+                goArrArea = self.webDriver.find_element_by_id("gArrArea")
+                select = Select(goArrArea)
+                for option in select.options:
+                    toArea = option.text
+                    destination[toArea] = []
+
+                    self.optionClick(select, toArea).click()
+
+                    goArr = self.webDriver.find_element_by_id("gGoArr")
+                    for option in Select(goArr).options:
+                        destination[toArea].append(option.get_attribute("value"))
+            except socket.timeout as e:
+                print e
+            except NoSuchElementException as e:
+                print e
+            except TimeoutException as e:
+                print e
+
+            for area, cities in destination.items():
+                for city in cities:
+                    for request in self.going(self.webDriver, flyingDate, area, city):
+                        yield request
+
+        #self.quitWebDriver()
+
+    def going(self, driver, flyingDate, area, city):
+        requests = []
+
+        maxTries = 3
+        flights = []
+
+        while True:
+            if maxTries < 1:
+                break
+
+            try:
+                driver.get(EvaAirlineSpider.search_url)
+                trip = driver.find_element_by_id("Radio3")
+                trip.click()
+
+                goDepArea = driver.find_element_by_id("gDepArea")
+                self.optionClick(Select(goDepArea), self.fromArea).click()
+
+                goDep = driver.find_element_by_id("gGoDep")
+                option = self.optionClick(Select(goDep), self.fromCity)
+                if option:
+                    option.click()
+                else:
+                    break
+
+                goArrArea = driver.find_element_by_id("gArrArea")
+                self.optionClick(Select(goArrArea), area).click()
+
+                goArr = driver.find_element_by_id("gGoArr")
+                option = self.optionClick(Select(goArr), city)
+                if option:
+                    option.click()
+
+                goMonth = driver.find_element_by_id("gGoYYYYMM")
+                self.optionClick(Select(goMonth), flyingDate.strftime("%Y-%m").replace("-0", "-")).click()
+
+                goDay = driver.find_element_by_id("gGoDD")
+                self.optionClick(Select(goDay), re.sub(r"^0", "", flyingDate.strftime("%d"))).click()
+
+                submit = driver.find_element_by_xpath("//table//th/a")
+                submit.click()
+
+                wait = ui.WebDriverWait(driver, 10)
+                wait.until(lambda driver: len(driver.find_elements_by_class_name("wdk-waiting-link")) > 0)
+                flights = driver.find_elements_by_class_name("wdk-waiting-link")
+
+                if ui.WebDriverWait(driver, 10).until(lambda driver: len(driver.find_elements_by_xpath("//td[contains(@class, 'selectable ff  TDYCNOW lowest')]//div//span[@class='price']//span[@class='number']")) > 0):
+                    prices = driver.find_elements_by_xpath("//td[contains(@class, 'selectable ff  TDYCNOW lowest')]//div//span[@class='price']//span[@class='number']")
+                    hasPrice = False
+                    for price in prices:
+                        if price.text != u"0":
+                            hasPrice = True
+
+                            break
+
+                    if not hasPrice:
+                        prices = driver.find_elements_by_xpath("//div//span[@class='price']//span[@class='number']")
+
+                        ticket = EvrAirlineTicket()
+                        ticket["url"] = driver.current_url
+                        ticket["company"] = self.name
+                        ticket["fromCity"] = self.fromCity
+                        ticket["toCity"] = city
+                        ticket["info"] = ""
+
+                        ticket["flyingDate"] = "%s %s" %(flyingDate.strftime("%Y-%m-%d"), infos[0])
+                        ticket["duration"] = "--"
+                        ticket["price"] = prices[0].text
+
+                        self.tickets.append(ticket)
+                    else:
+                        transferredFlight = []
+                        flightToday = driver.find_elements_by_xpath("//tr[contains(@id, 'TrEl')]")
+                        for idx in range(0 ,len(flightToday)):
+                            flight = flightToday[idx]
+                            infos = flight.text.split("\n")
+                            #for i in range(0 ,len(infos)):
+                            #    print i, infos[i]
+
+                            transferredFlight.append(flight.text)
+                            if u"Segment0" not in flight.get_attribute("id"):
+                                continue
+
+                            ticket = EvrAirlineTicket()
+                            ticket["url"] = driver.current_url
+                            ticket["company"] = self.name
+                            ticket["fromCity"] = self.fromCity
+                            ticket["toCity"] = city
+                            ticket["info"] = "\n".join(transferredFlight)
+
+                            ticket["flyingDate"] = "%s %s" %(flyingDate.strftime("%Y-%m-%d"), infos[0])
+                            ticket["duration"] = infos[8].split(" ")[1]
+                            ticket["price"] = prices[idx].text
+
+                            self.tickets.append(ticket)
+            except socket.timeout as e:
+                print e
+            except NoSuchElementException as e:
+                print e
+            except TimeoutException as e:
+                print e
+
+            if flights:
+                for flight in flights:
+                    url = flight.get_attribute("href")
+                    if "jsessionid" in url:
+                        #request = "%s%s" %(url[:len(url)-12], tt.strftime("%Y%m%d%H%M%S"))
+                        requests.append(Request(url = url, callback = self.ticket, dont_filter=True))
+
+                        pass
+                break
+
+            maxTries -= 1
+
+        return requests
+
+        '''
+        https://wftc3.e-travel.com/EVAOnline/dyn/air/booking/availability;jsessionid=kfxN3InVI6T1B7IPPqqaGGIkLoGzYqGMELlqejYVMWPN1M1xt3Ep!1895726909!-2024041998?COMMERCIAL_FARE_FAMILY_1=NEWECOOW&NB_CHD=0&B_LOCATION_1=TPE&WDS_BR_PORTAL=AIBS&LANGUAGE=TW&NB_ADT=1&ENC_TIME=20140907100615&IS_FLEXIBLE=TRUE&E_LOCATION_1=KIX&LIST_CORPORATE_NUMBER_1_1=&ENCT=1&NB_INF=0&SITE=CBHGCBHG&NB_STU=0&WDS_ACCOUNT_NUMBER=&WDS_CORPORATE_NAME=&ENC=5D60B55BA48EF26237ACEC3707041E81DBC8A0C96A77B34FB9481388D22F1A8E3934F3B32A4DE492B3B4CA706845CA23&EXTERNAL_ID=TAIWAN&TRIP_TYPE=O&FORCE_OVERRIDE=TRUE&OFFICE_ID=TPEBR08AB&B_DATE_1=201409120000
+        '''
+
+    def ticket(self, response):
+        parsed = urlparse(response.url)
+        toCity = parse_qs(parsed.query)['E_LOCATION_1'][0].upper()
+        fromCity = parse_qs(parsed.query)['B_LOCATION_1'][0].upper()
+        flyingDate = parse_qs(parsed.query)["B_DATE_1"][0].upper()
+
+        prices = response.xpath("//td[re:test(@class, 'selectable ff .* lowest')]//div//span[@class='price']//span[@class='number']/text()").extract()
+
+        transferredFlight = []
+        flights = response.xpath("//tr[re:test(@id, 'b0Flight(\d+)Segment(\d+)TrEl')]")
+        for idx in range(len(flights)-1, -1, -1):
+            flight = flights[idx]
+            infos = flight.xpath("th//span/text()").extract()
+
+            info = "\n".join([text.replace("\n", "") for text in infos if text.replace("\n", "").replace(" ", "") != ""])
+
+            fid = flights[idx].xpath("@id").extract()[0]
+            transferredFlight.append(info)
+            if "Segment0" not in fid:
+                continue
+
+            ticket = EvrAirlineTicket()
+            ticket["url"] = response.url
+            ticket["company"] = self.name
+            ticket["fromCity"] = fromCity
+            ticket["toCity"] = toCity
+            ticket["info"] = "\n".join(transferredFlight)
+
+            #flyingDate = infos[0]
+            year = flyingDate[0:4]
+            month = flyingDate[4:6]
+            day = flyingDate[6:8]
+            hour = flyingDate[8:10]
+            minute = flyingDate[10:12]
+            ticket["flyingDate"] = "%s-%s-%s %s:%s" %(year, month, day, hour, minute)
+
+            ticket["price"] = prices[idx]
+            ticket["duration"] = infos[-1]
+
+            transferredFlight = []
+
+            yield ticket
+
+        if self.tickets:
+            for ticket in self.tickets:
+                yield ticket
+
+            self.tickets = []
