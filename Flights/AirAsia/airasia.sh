@@ -43,7 +43,7 @@ do
                         mv "${spiderName}.${today}.json" "${jsonFile}"
                         mv "${jsonFile}" ${jobPath}/json
                     else
-                        echo "Empty Results - ${spiderName}.${today}.json"
+                        echo "Empty Results - ${spiderName}.${today}.json" >> ${logPath}
                         rm "${spiderName}.${today}.json"
                     fi
 
