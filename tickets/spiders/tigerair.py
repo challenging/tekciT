@@ -1,4 +1,4 @@
-#coding=utf-8
+#-*- coding=utf-8
 
 import sys, datetime, time, socket
 
@@ -86,7 +86,7 @@ class TigerAirSpider(scrapy.Spider):
                                         ticket["fromCity"] = infos[16]
                                         ticket["isTransferred"] = True
                                         ticket["datetimeStart"] = infos[17]
-                                        ticket["flight"] = "%s%s,%s%s" %(infos[12].split("|")[1], infos[13], infos[19].split("^")[1], infos[20])
+                                        ticket["flight"] = "%s%s,%s%s" %(infos[12].split("|")[1], infos[13].strip(), infos[19].split("^")[1], infos[20].strip())
                                     else:
                                         ticket["flight"] = "%s%s" %(infos[6].split("|")[1], infos[7].strip())
 
@@ -175,9 +175,6 @@ class TigerAirSpider(scrapy.Spider):
                                      callback = self.ticket)
 
     def ticket(self, response):
-        print response.body
-        #print response.url
-
         prices = response.xpath("//td[@class='light prices']//h3[@class='fareprice']/text()").extract()
         infos = response.xpath("//td[@class='light prices']//input[@name='ControlGroupSelectBundleView$AvailabilityInputSelectBundleView$market1']/@value").extract()
         for idx in range(0, len(infos)):
