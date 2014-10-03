@@ -1,0 +1,1768 @@
+
+
+
+<!DOCTYPE html >
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 9]>
+      
+<div id="iebrowserModal">
+    <div class="modal hide fade modal-with-dropdown in" style="display: block; width: 350px; top: -1%; left: 97%; background: #EEE;">
+        <div class="modal-body" style="border: 2px solid #000; padding: 6px 12px 12px;">
+            <div class="modal-close" onclick="javascript: document.getElementById('iebrowserModal').style.display = 'none';" style="float:right; margin-bottom: 10px; margin-right: 15px; cursor: pointer; color:#0072c6;">關閉 X</div><br/>
+            <div id="message">
+             <span style="float:left; padding-top: 6px; margin-right: 4px;">
+                <img src="/publishingimages/CMS/ico/ceb-error-icon.png"/></span>
+             <span style="float:left; width: 280px;">
+                嗨！請把您的瀏覽器升級到最新版本，以暢享宿務太平洋網站的高效瀏覽體驗。 <a href="/pages/security.aspx" id="ctl00_ctl01_SecurityPageUrlLink" style="text-decoration: underline; font-weight: bold; cursor:pointer;">更多詳情</a>
+             </span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<![endif]-->
+
+
+    <head id="ctl00_Head1"><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" />
+
+        <!-- facebok meta tags --> 
+        <meta property="og:image" content="/PublishingImages/CMS/cebfb_logo.jpg" /><meta property="og:url" content="https://www.cebupacificair.com/Pages/default.aspx" /><meta property="og:type" content="website" /><meta property="og:title" content="Cebu Pacific Air – Why everyone flies" />
+
+        <!-- favicons -->
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/PublishingImages/CMS/ico/apple-touch-icon-144-precomposed.png" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/PublishingImages/CMS/ico/apple-touch-icon-114-precomposed.png" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/PublishingImages/CMS/ico/apple-touch-icon-72-precomposed.png" /><link rel="apple-touch-icon-precomposed" href="/PublishingImages/CMS/ico/apple-touch-icon-57-precomposed.png" /><link rel="shortcut icon" href="/PublishingImages/CMS/ico/favicon.ico" />
+             <title>
+                 宿務太平洋航空 - 每個人都能飛的原因
+
+             </title>
+        <link id="CssRegistration1" rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/corev15.css?rev=BdxJNFd%2FTPOed3Z8IKEJ9A%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/_layouts/15/CEB.CMS/Styles/cms-main.css?t=20140930144007"/>
+<link rel="stylesheet" type="text/css" href="https://www.cebupacificair.com/tw-zh/Style%20Library/cms-main-override.css?t=20140922135827"/>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=7Tix801bl5ZziOKr5K1nrw%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/ceb.cms/scripts/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="/_layouts/15/ceb.cms/scripts/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/_layouts/15/ceb.cms/scripts/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=-BxNsjB0-Kq8jbUXZAlwqC7ZQeuv3QBVoph-KNXKBlbBCwLQmjdy-XBYCfgT1vEZ7ThoWRUYUEgR5UHeztntsXRWGZoYX1sK6DqQMwGHJcWAYm6l5hj8TtSzbD468HuScg5-LrSK4cobw5H8iopw-aLwR2jZQ2RUIM0Z5Lr7_5n6ilx1NyvHvYSKkWmaXCXa0&amp;t=ffffffffdb0d1ac2"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=TnFjs58n2vLeOVbalxQN5zPGT15imfpWFaQRC4b1vT9RgOwBvVT4MzoUMw5E47joRjpFndaeN0Grt7PATwbJVve4Yg0AP4q3OoOPENMzRVoRBIM4dM-xAGYct3p8KuMzT_9xH88rXZxZEOP5WS6UXKN38wO3TVVF1RssDgi1ul7nlDgy_2BLucGU0Ho64z6U0&amp;t=ffffffffdb0d1ac2"></script>
+<script type="text/javascript" src="/_layouts/15/CEB.CMS/Scripts/cms-main.js?t=20141001011740"></script>
+<script type="text/javascript" src="/_layouts/15/CEB.CMS/Scripts/cms-searchflight.js?t=20140930144007"></script>
+<script type="text/javascript">RegisterSod("initstrings.js", "\u002f_layouts\u002f15\u002f1033\u002finitstrings.js?rev=uNmvBiHdrBzcPQzXRpm\u00252FnQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f1033\u002fstrings.js?rev=cSu1pcWiRc999fyCNzJplg\u00253D\u00253D");RegisterSodDep("strings.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=QI1yUCfCoUkadL93jNZLOg\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=yNk\u00252FhRzgBn40LJVP\u00252BqfgdQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=0xf6wCIW4E1pN83I9nSIJQ\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=\u00252FmcwmyWAFSbQRHlXU4BIBg\u00253D\u00253D");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=pcr83s11QGFA2kLt5rDQ1g\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fie55up.js?rev=8DOJHU0FO2DVVMI7ZiMUOQ\u00253D\u00253D");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=33bA6vu78Vj9BHUu9nwStw\u00253D\u00253D");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=K5zrfCDSdbrB8fpmpszSPg\u00253D\u00253D");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");</script>
+<span id="ctl00_Cms_Main_Script"></span><span id="ctl00_Cms_Search_Flight_Script"></span><link type="text/xml" rel="alternate" href="/tw-zh/_vti_bin/spsdisco.aspx" />
+            
+            
+            
+            
+            
+        <span id="DeltaSPWebPartManager">
+        
+        </span><span id="ctl00_Cms_Main_Style"></span><span id="ctl00_Cms_Main_Style_Override"></span><link rel="stylesheet" href="/_layouts/15/CEB.CMS/Styles/bootstrap-select.min.css" /><link rel="stylesheet" href="/_layouts/15/CEB.CMS/Styles/jquery-ui.css" />
+
+        <!--[if IE 7]>
+        <link rel="stylesheet" href="/_layouts/15/CEB.CMS/Styles/font-awesome-ie7.min.css" />
+        <![endif]-->
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><span id="ctl00_spAnonymous">
+            <style>
+                body, #s4-workspace { overflow: visible; }
+            </style>
+        </span><title>
+
+</title></head>
+
+    <body onhashchange="if (typeof(_s1pBodyOnHashChange) != 'undefined') _spBodyOnHashChange();">
+        
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NG8NR5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-NG8NR5');</script>
+<!-- End Google Tag Manager -->
+
+        
+        
+        
+                             
+        
+        
+        <form method="post" action="tw-zh" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="InvalidFormDigest" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPBSpWU0tleTo4ZTExYTk4NS1hYTY5LTRkZmEtYTZkNC0wZjM1Y2QzY2UyMDlkDfvuT3k5O9RRMtnAa5mOxAPGdF57mIDCkj5byuyx8qs=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=ZsiuRspQVC0sC-6D_UHuPrakiOynZPQXXlUdhWSDPun-sbNq_t_vCQF--qHKxk4P9OecT1eqYn9K6v6TcQPU85EHaCAOSU8aGIthzppuR4Y1&amp;t=635243297401413847" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'CMSPUBLISHING#0';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002ftw-zh", webAbsoluteUrl: "https:\u002f\u002fwww.cebupacificair.com\u002ftw-zh", siteAbsoluteUrl: "https:\u002f\u002fwww.cebupacificair.com", serverRequestPath: "\u002ftw-zh\u002fPages\u002fdefault.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "Taiwan - TW", webTemplate: "39", tenantAppVersion: "0", webLogoUrl: "\u002fPublishingImages\u002fCMS\u002flogo.png", webLanguage: 1033, currentLanguage: 1033, currentUICultureName: "en-US", currentCultureName: "en-US", clientServerTimeDelta: new Date("2014-10-02T14:01:45.8991291Z") - new Date(), siteClientTag: "177$$15.0.4481.1005", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:16,Low:196673},pageListId:"{31f583ec-396d-424b-a5f1-f192aba22276}",pageItemId:172, pagePersonalizationScope:1, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};//]]>
+</script>
+<script type="text/javascript">jsonStations = [{"StationName":"Perth","StationCode":"PER","CountryName":"澳大利亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"悉尼","StationCode":"SYD","CountryName":"澳大利亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Dhaka","StationCode":"DAC","CountryName":"Bangladesh","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"斯里巴加灣市 （汶萊)","StationCode":"BWN","CountryName":"汶萊","StationMapping":"REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Phnom Penh","StationCode":"PNH","CountryName":"柬埔寨","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"暹粒市","StationCode":"REP","CountryName":"柬埔寨","StationMapping":"BWN|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"北京","StationCode":"PEK","CountryName":"中國","StationMapping":"BWN|REP|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"廣州","StationCode":"CAN","CountryName":"中國","StationMapping":"BWN|REP|PEK|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Haikou","StationCode":"HAK","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Lijiang","StationCode":"LJG","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Ningbo","StationCode":"NGB","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"上海","StationCode":"PVG","CountryName":"中國","StationMapping":"BWN|REP|PEK|CAN|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Shenzhen","StationCode":"SZX","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"廈門","StationCode":"XMN","CountryName":"中國","StationMapping":"BWN|REP|PEK|CAN|PVG|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Xian","StationCode":"XIY","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"香港","StationCode":"HKG","CountryName":"香港","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Bangalore","StationCode":"BLR","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Chennai","StationCode":"MAA","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Hyderabad","StationCode":"HYD","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Kochi","StationCode":"COK","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Thiruvananthapuram","StationCode":"TRV","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Tiruchirapalli ","StationCode":"TRZ","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"巴厘島（登巴薩）","StationCode":"DPS","CountryName":"印尼","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Bandung","StationCode":"BDO","CountryName":"印尼","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"雅加達","StationCode":"CGK","CountryName":"印尼","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Surabaya","StationCode":"SUB","CountryName":"印尼","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"名古屋","StationCode":"NGO","CountryName":"日本","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"大阪（關西）","StationCode":"KIX","CountryName":"日本","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"東京（成田）","StationCode":"NRT","CountryName":"日本","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"科威特","StationCode":"KWI","CountryName":"科威特","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"澳門","StationCode":"MFM","CountryName":"澳門","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"哥打京拿巴魯","StationCode":"BKI","CountryName":"馬來西亞","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"吉隆坡","StationCode":"KUL","CountryName":"馬來西亞","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Langkawi","StationCode":"LGK","CountryName":"馬來西亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Penang","StationCode":"PEN","CountryName":"馬來西亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Male (Maldives)","StationCode":"MLE","CountryName":"Maldives","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Yangon","StationCode":"RGN","CountryName":"Myanmar","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"巴科洛德","StationCode":"BCD","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"長灘島 （卡地克蘭）","StationCode":"MPH","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"武端","StationCode":"BXU","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"卡加延德奧羅","StationCode":"CGY","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"甘米銀","StationCode":"CGM","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"卡瓦揚","StationCode":"CYZ","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"宿務","StationCode":"CEB","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"克拉克","StationCode":"CRK","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"科隆（布桑加）","StationCode":"USU","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"哥打巴托","StationCode":"CBO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"達沃","StationCode":"DVO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"第波羅","StationCode":"DPL","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"杜馬格特","StationCode":"DGT","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"桑托斯將軍城","StationCode":"GES","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"伊洛伊洛","StationCode":"ILO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"卡利波","StationCode":"KLO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"拉瓦格","StationCode":"LAO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"黎牙實比","StationCode":"LGP","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"馬尼拉","StationCode":"MNL","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"那伽","StationCode":"WNP","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"奧薩米斯","StationCode":"OZC","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"帕加迪安","StationCode":"PAG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"普林塞薩港","StationCode":"PPS","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"羅哈斯","StationCode":"RXS","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"聖何塞 （民都洛）","StationCode":"SJI","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"錫亞高","StationCode":"IAO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"蘇里高","StationCode":"SUG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"塔克洛班","StationCode":"TAC","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"塔比拉蘭","StationCode":"TAG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"丹達","StationCode":"TDG","CountryName":"菲律賓","StationMapping":"BCD|BXU|CGY|CGM|CEB|CRK|DVO|DPL|DGT|ILO|KLO|MNL|TAC|SIN|ICN|MPH|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"塔威塔威","StationCode":"TWT","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"土格加勞","StationCode":"TUG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"比拉克","StationCode":"VRC","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"三寶顏","StationCode":"ZAM","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"達曼","StationCode":"DMM","CountryName":"沙地阿拉伯","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Riyadh","StationCode":"RUH","CountryName":"沙地阿拉伯","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"新加坡","StationCode":"SIN","CountryName":"新加坡","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"釜山","StationCode":"PUS","CountryName":"韓國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"仁川","StationCode":"ICN","CountryName":"韓國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"台北","StationCode":"TPE","CountryName":"台灣","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"曼谷","StationCode":"BKK","CountryName":"泰國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Chiang Mai","StationCode":"CNX","CountryName":"泰國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Hat Yai","StationCode":"HDY","CountryName":"泰國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Krabi","StationCode":"KBV","CountryName":"泰國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"普吉島","StationCode":"HKT","CountryName":"泰國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HAN|SGN|MPH|DXB|NGO|NRT|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"迪拜","StationCode":"DXB","CountryName":"阿拉伯聯合酋長國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"河內","StationCode":"HAN","CountryName":"越南","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"胡志明市","StationCode":"SGN","CountryName":"越南","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false}];currentDate = new Date('10/2/2014');maxDateComputed = new Date('11/2/2015');submitActionUrl = 'https://book.cebupacificair.com/Search.aspx?culture=zh-tw';travelbookLandingUrl = 'http://www.travelbook.ph/cebupacificair?utm_source=cebupacificair.com&utm_medium=search+referral';travelbookParams = 'stayYear=;&stayMonth=;&stayDay=;&stayCount=;&roomCrack=200000;&hotelNameKey=;&activeSort=0;&prid=PWL002';AgodaRedirectUrl2 = 'http://www.agoda.com/cebupacificair2';AgodaRedirectUrl3 = 'http://www.agoda.com/cebupacificair3';ERROR_MSG_MAX_EXCEEDED = '"太多乘客';ERROR_MSG_MAX_CHILD_EXCEEDED_ZERO_ADULT = '若不含成人，預訂只允許最多兩名兒童。';ERROR_MSG_NO_ORIGIN = '請輸入出發地';ERROR_MSG_NO_DESTINATION = '請輸入目的地';ERROR_MSG_NO_DEPARTURE_DATE = '請輸入出發日期';ERROR_MSG_NO_RETURN_DATE = '請輸入返程日期';ERROR_MSG_NO_PASSENGERS = '請輸入乘客人數';ERROR_MSG_NO_ADULT = '請輸入成人人數';ERROR_MSG_NO_BIRTHDATES = '請輸入出生日期';ERROR_MSG_NO_BIRTHDATE = '請輸入兒童的出生日期' ;ERROR_MSG_ONE_ADULT_ONE_INFANT = '一名成人只允許攜帶一名嬰兒同行';ERROR_MSG_NO_INFANT_OPTION = '請輸入嬰兒的座位選項';ERROR_MSG_INVALID_INFANT_BIRTHDATE = 'Invalid birthdate for Infant #CHILD_NUM#. Infants should be 8 days old to below 2 years old at the day of the flights';ERROR_MSG_CHILD_AGE_EXCEEDED = 'Child #CHILD_NUM# has exceeded the age limit, if you intend to book an Adult passenger please click cancel and restart your booking.';ERROR_MSG_NO_MATCH_FOUND = '没有找到符合您搜寻条件的目的地。请重试。';ERROR_HTL_MSG_NO_LOCATION = '請輸入地點';ERROR_HTL_MSG_NO_CHECKIN = '請輸入入住日期';ERROR_HTL_MSG_NO_NUMNIGHTS = '請輸入入住天數';ERROR_HTL_MSG_BOOKINGENGINE = '選擇預訂地點';DUBAI_ADVISORY_TITLE = '諮詢';DUBAI_ADVISORY_MSG = '由于迪拜國際機場(DXB)跑道將會暫時和局部關閉，因此在2014年5月1日至7月20日往返迪拜的航班將更改爲沙迦國際機場（SHJ）。<br/><br/>在這期間將不接待持有續程機票或要求接送至迪拜國際機場(DXB) 和迪拜國際中心機場(DWC) 之乘客，除非在辦理登機手續時呈上有效的阿拉伯聯合酋長國入境簽證。<br/><br/>若您單一預訂中的出遊日期需抵達沙迦國際機場（SHJ）和從迪拜國際機場(DXB)出發或反之，請于搜尋框中選擇“多城市”。';DUBAI_ADVISORY_BTN_TEXT = '好的';HEADER_TEXT_FLIGHT = '預訂行程';HEADER_TEXT_HOTEL = '預訂酒店';HEADER_TEXT_CAR = '租車';LOCALIZED_PHILIPPINES = '菲律賓';ROWS_PER_COLUMN = '20';</script>
+<script type="text/javascript">
+//<![CDATA[
+var L_Menu_BaseUrl="/tw-zh";
+var L_Menu_LCID="1033";
+var L_Menu_SiteTheme="null";
+document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};//]]>
+</script>
+<script type="text/javascript">jsonFsStations = [{"StationName":"Perth","StationCode":"PER","CountryName":"澳大利亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"悉尼","StationCode":"SYD","CountryName":"澳大利亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Dhaka","StationCode":"DAC","CountryName":"Bangladesh","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"斯里巴加灣市 （汶萊)","StationCode":"BWN","CountryName":"汶萊","StationMapping":"REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Phnom Penh","StationCode":"PNH","CountryName":"柬埔寨","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"暹粒市","StationCode":"REP","CountryName":"柬埔寨","StationMapping":"BWN|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"北京","StationCode":"PEK","CountryName":"中國","StationMapping":"BWN|REP|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"廣州","StationCode":"CAN","CountryName":"中國","StationMapping":"BWN|REP|PEK|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Haikou","StationCode":"HAK","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Lijiang","StationCode":"LJG","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Ningbo","StationCode":"NGB","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"上海","StationCode":"PVG","CountryName":"中國","StationMapping":"BWN|REP|PEK|CAN|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Shenzhen","StationCode":"SZX","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"廈門","StationCode":"XMN","CountryName":"中國","StationMapping":"BWN|REP|PEK|CAN|PVG|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Xian","StationCode":"XIY","CountryName":"中國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"香港","StationCode":"HKG","CountryName":"香港","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Bangalore","StationCode":"BLR","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Chennai","StationCode":"MAA","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Hyderabad","StationCode":"HYD","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Kochi","StationCode":"COK","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Thiruvananthapuram","StationCode":"TRV","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Tiruchirapalli ","StationCode":"TRZ","CountryName":"India","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"巴厘島（登巴薩）","StationCode":"DPS","CountryName":"印尼","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Bandung","StationCode":"BDO","CountryName":"印尼","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"雅加達","StationCode":"CGK","CountryName":"印尼","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Surabaya","StationCode":"SUB","CountryName":"印尼","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"名古屋","StationCode":"NGO","CountryName":"日本","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"大阪（關西）","StationCode":"KIX","CountryName":"日本","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"東京（成田）","StationCode":"NRT","CountryName":"日本","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"科威特","StationCode":"KWI","CountryName":"科威特","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"澳門","StationCode":"MFM","CountryName":"澳門","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"哥打京拿巴魯","StationCode":"BKI","CountryName":"馬來西亞","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"吉隆坡","StationCode":"KUL","CountryName":"馬來西亞","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Langkawi","StationCode":"LGK","CountryName":"馬來西亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Penang","StationCode":"PEN","CountryName":"馬來西亞","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Male (Maldives)","StationCode":"MLE","CountryName":"Maldives","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Yangon","StationCode":"RGN","CountryName":"Myanmar","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"巴科洛德","StationCode":"BCD","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"長灘島 （卡地克蘭）","StationCode":"MPH","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"武端","StationCode":"BXU","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"卡加延德奧羅","StationCode":"CGY","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"甘米銀","StationCode":"CGM","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"卡瓦揚","StationCode":"CYZ","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"宿務","StationCode":"CEB","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"克拉克","StationCode":"CRK","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"科隆（布桑加）","StationCode":"USU","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"哥打巴托","StationCode":"CBO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"達沃","StationCode":"DVO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"第波羅","StationCode":"DPL","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"杜馬格特","StationCode":"DGT","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"桑托斯將軍城","StationCode":"GES","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"伊洛伊洛","StationCode":"ILO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"卡利波","StationCode":"KLO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"拉瓦格","StationCode":"LAO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"黎牙實比","StationCode":"LGP","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"馬尼拉","StationCode":"MNL","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"那伽","StationCode":"WNP","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"奧薩米斯","StationCode":"OZC","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"帕加迪安","StationCode":"PAG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"普林塞薩港","StationCode":"PPS","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"羅哈斯","StationCode":"RXS","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"聖何塞 （民都洛）","StationCode":"SJI","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"錫亞高","StationCode":"IAO","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"蘇里高","StationCode":"SUG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"塔克洛班","StationCode":"TAC","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"塔比拉蘭","StationCode":"TAG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"丹達","StationCode":"TDG","CountryName":"菲律賓","StationMapping":"BCD|BXU|CGY|CGM|CEB|CRK|DVO|DPL|DGT|ILO|KLO|MNL|TAC|SIN|ICN|MPH|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"塔威塔威","StationCode":"TWT","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"土格加勞","StationCode":"TUG","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"比拉克","StationCode":"VRC","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"三寶顏","StationCode":"ZAM","CountryName":"菲律賓","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"達曼","StationCode":"DMM","CountryName":"沙地阿拉伯","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Riyadh","StationCode":"RUH","CountryName":"沙地阿拉伯","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"新加坡","StationCode":"SIN","CountryName":"新加坡","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"釜山","StationCode":"PUS","CountryName":"韓國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|ICN|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"仁川","StationCode":"ICN","CountryName":"韓國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|TPE|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"台北","StationCode":"TPE","CountryName":"台灣","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|BKK|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"曼谷","StationCode":"BKK","CountryName":"泰國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|HKT|HAN|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Chiang Mai","StationCode":"CNX","CountryName":"泰國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Hat Yai","StationCode":"HDY","CountryName":"泰國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"Krabi","StationCode":"KBV","CountryName":"泰國","StationMapping":"","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"普吉島","StationCode":"HKT","CountryName":"泰國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HAN|SGN|MPH|DXB|NGO|NRT|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"迪拜","StationCode":"DXB","CountryName":"阿拉伯聯合酋長國","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|SGN|MPH|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"河內","StationCode":"HAN","CountryName":"越南","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|SGN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false},{"StationName":"胡志明市","StationCode":"SGN","CountryName":"越南","StationMapping":"BWN|REP|PEK|CAN|PVG|XMN|HKG|DPS|CGK|KIX|MFM|BKI|KUL|BCD|BXU|CGY|CGM|CYZ|CEB|CRK|USU|CBO|DVO|DPL|DGT|GES|ILO|KLO|LAO|LGP|MNL|WNP|OZC|PAG|PPS|RXS|SJI|IAO|SUG|TAC|TAG|SGS|TUG|VRC|ZAM|SIN|PUS|ICN|TPE|BKK|HKT|HAN|MPH|DXB|NGO|NRT|SHJ|","ID":0,"Title":null,"ParentFolder":null,"IsNew":false}];flightStatusResultsPageUrl = 'https://www.cebupacificair.com/tw-zh/Pages/check-flight-status.aspx';currentDate = new Date('10/2/2014');InitializeCMSService('https://www.cebupacificair.com');ERROR_MSG_NO_ORIGIN = '請輸入出發地';ERROR_MSG_NO_DESTINATION = '請輸入目的地';ERROR_MSG_NO_FLIGHT_DATE = 'ENTERFLIGHTDATE';ERROR_MSG_NO_FLIGHTS_FOUND = '沒找到相關的航班';MSG_SEARCHING_FOR_FLIGHTS = '正搜尋航班號';MSG_FLIGHTS_FOUND_SHOW_ALL = '#NUM_FLIGHTS# 共搜到十趟航班 - 顯示全部';FROM = '從';TO = '到';FLIGHT_DATE = '航班日期 ';FLIGHT_NUMBER = '航班號';OPTIONAL = '選項';CHECK_STATUS = '查看狀態';MONTH_JAN = '一月';MONTH_FEB = '二月';MONTH_MAR = '三月';MONTH_APR = '四月';MONTH_MAY = '五月';MONTH_JUN = '六月';MONTH_JUL = '七月';MONTH_AUG = '八月';MONTH_SEP = '九月';MONTH_OCT = '十月';MONTH_NOV = '十一月';MONTH_DEC = '十二月';</script>
+<script type="text/javascript">
+//<![CDATA[
+var _spWebPartComponents = new Object();//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() 
+        {
+          ExecuteOrDelayUntilScriptLoaded(
+            function()
+            {
+              var pairs = SP.ScriptHelpers.getDocumentQueryPairs();
+              var followDoc, itemId, listId, docName;
+              for (var key in pairs)
+              {
+                if(key.toLowerCase() == 'followdocument') 
+                  followDoc = pairs[key];
+                else if(key.toLowerCase() == 'itemid') 
+                  itemId = pairs[key];
+                else if(key.toLowerCase() == 'listid') 
+                  listId = pairs[key];
+                else if(key.toLowerCase() == 'docname') 
+                  docName = decodeURI(pairs[key]);
+              } 
+
+              if(followDoc != null && followDoc == '1' && listId!=null && itemId != null && docName != null)
+              {
+                SP.SOD.executeFunc('followingcommon.js', 'FollowDocumentFromEmail', function() 
+                { 
+                  FollowDocumentFromEmail(itemId, listId, docName);
+                });
+              }
+
+            }, 'SP.init.js');
+
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+
+            if (typeof(SPClientTemplates) === 'undefined' || SPClientTemplates === null || (typeof(APD_InAssetPicker) === 'function' && APD_InAssetPicker())) {
+                return;
+            }
+
+            var renderFollowFooter = function(renderCtx,  calloutActionMenu)
+            {
+                if (renderCtx.ListTemplateType == 700) 
+                    myDocsActionsMenuPopulator(renderCtx, calloutActionMenu);
+                else
+                    CalloutOnPostRenderTemplate(renderCtx, calloutActionMenu);
+
+                var listItem = renderCtx.CurrentItem;
+                if (typeof(listItem) === 'undefined' || listItem === null) {
+                    return;
+                }
+                if (listItem.FSObjType == 0) {
+                    calloutActionMenu.addAction(new CalloutAction({
+                        text: Strings.STS.L_CalloutFollowAction,
+                        tooltip: Strings.STS.L_CalloutFollowAction_Tooltip,
+                        onClickCallback: function (calloutActionClickEvent, calloutAction) {
+                            var callout = GetCalloutFromRenderCtx(renderCtx);
+                            if (!(typeof(callout) === 'undefined' || callout === null))
+                                callout.close();
+                            SP.SOD.executeFunc('followingcommon.js', 'FollowSelectedDocument', function() { FollowSelectedDocument(renderCtx); });
+                        }
+                    }));
+                }
+            };
+
+            var registerOverride = function(id) {
+                var followingOverridePostRenderCtx = {};
+                followingOverridePostRenderCtx.BaseViewID = 'Callout';
+                followingOverridePostRenderCtx.ListTemplateType = id;
+                followingOverridePostRenderCtx.Templates = {};
+                followingOverridePostRenderCtx.Templates.Footer = function(renderCtx) {
+                    var  renderECB;
+                    if (typeof(isSharedWithMeView) === 'undefined' || isSharedWithMeView === null) {
+                        renderECB = true;
+                    } else {
+                        var viewCtx = getViewCtxFromCalloutCtx(renderCtx);
+                        renderECB = !isSharedWithMeView(viewCtx);
+                    }
+                    return CalloutRenderFooterTemplate(renderCtx, renderFollowFooter, renderECB);
+                };
+                SPClientTemplates.TemplateManager.RegisterTemplateOverrides(followingOverridePostRenderCtx);
+            }
+            registerOverride(101);
+            registerOverride(700);
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();function WebForm_OnSubmit() {
+UpdateFormDigest('\u002ftw-zh', 1440000);if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;};
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+    <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAPIItaaBip8eEnib4yDeXSefrBXK22RCjgQsimSyWglE1+iFe1+hFeGLRrEDAcS3dSTg/+0II+cPOjxxqXepTgLqGSKO4BXcO3NTVNI9V0qNw==" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager', 'aspnetForm', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+    
+        <div id="ms-designer-ribbon">
+            
+            <div id="TurnOnAccessibility" style="display:none" class="s4-notdlg noindex">
+                <a id="linkTurnOnAcc" href="#" class="ms-accessible ms-acc-button" onclick="SetIsAccessibilityFeatureEnabled(true);UpdateAccessibilityUI();document.getElementById('linkTurnOffAcc').focus();return false;">
+                    Turn on more accessible mode
+                </a>
+            </div>
+            <div id="TurnOffAccessibility" style="display:none" class="s4-notdlg noindex">
+                <a id="linkTurnOffAcc" href="#" class="ms-accessible ms-acc-button" onclick="SetIsAccessibilityFeatureEnabled(false);UpdateAccessibilityUI();document.getElementById('linkTurnOnAcc').focus();return false;">
+                    Turn off more accessible mode
+                </a>
+            </div>
+            <div>
+    
+    <div id="s4-ribbonrow" style="visibility:hidden;display:none"></div>
+
+</div>
+
+
+        </div>
+
+        <div id="s4-workspace">
+            <div id="s4-bodyContainer">
+                <div class="cms-page">
+
+                    <!--[if lt IE 7]>
+                    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+                    <![endif]-->
+
+                    <section class="mheader">
+                            <div class="container">
+                                <div class="row mod">
+
+                                    
+<div class="mh-lang styled-select">
+    <div id="language-selector">
+        <div id="language">
+            <span id="language-dropdown">
+                <span class="flag selected-flag flag-tw" >&nbsp</span>
+                <span class="selected-language">Taiwan 繁體中文</span>
+                <span id="title-arrow" class="with-arrow">&nbsp</span>
+            </span>
+        </div>
+        <div id="language-selector-box">
+            <div class="language-selector-box-wrapper" style="">
+                <div class="toolbar">
+                    <h4>請選擇您的國家和語言</h4>
+                </div>
+                    
+                            <li>
+                                <span class="flag flag-au"></span>
+                                <h5>Australia</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/au-en' id="hp-langselect-ceb-au-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-bn"></span>
+                                <h5>Brunei Darussalam</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/bn-en' id="hp-langselect-ceb-bn-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-kh"></span>
+                                <h5>Cambodia</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/kh-en' id="hp-langselect-ceb-kh-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-cn"></span>
+                                <h5>China</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/cn-zh' id="hp-langselect-ceb-cn-zh">简体中文</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-hk"></span>
+                                <h5>Hong Kong</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/hk-en' id="hp-langselect-ceb-hk-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-id"></span>
+                                <h5>Indonesia</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/id-en' id="hp-langselect-ceb-id-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-jp"></span>
+                                <h5>Japan</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/jp-ja' id="hp-langselect-ceb-jp-ja">日本語</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-kw"></span>
+                                <h5>Kuwait</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/kw-en' id="hp-langselect-ceb-kw-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-mo"></span>
+                                <h5>Macau</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/mo-en' id="hp-langselect-ceb-mo-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-my"></span>
+                                <h5>Malaysia</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/my-en' id="hp-langselect-ceb-my-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-ph"></span>
+                                <h5>Philippines</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/' id="hp-langselect-ceb-ph-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-sa"></span>
+                                <h5>Saudi Arabia</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/sa-en' id="hp-langselect-ceb-sa-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-sg"></span>
+                                <h5>Singapore</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/sg-en' id="hp-langselect-ceb-sg-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-kr"></span>
+                                <h5>South Korea</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/kr-ko' id="hp-langselect-ceb-kr-ko">한국어</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-tw"></span>
+                                <h5>Taiwan</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/tw-zh' id="hp-langselect-ceb-tw-zh">繁體中文</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-th"></span>
+                                <h5>Thailand</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/th-en' id="hp-langselect-ceb-th-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-ae"></span>
+                                <h5>United Arab Emirates</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/ae-en' id="hp-langselect-ceb-ae-en">English</a>
+                                    
+                                </div>
+                            </li>
+                        
+                            <li>
+                                <span class="flag flag-vn"></span>
+                                <h5>Vietnam</h5>
+                                <div class="languages">
+                                
+                                        <a href='https://www.cebupacificair.com/vn-en' id="hp-langselect-ceb-vn-en">English</a>
+                                    
+                                </div>
+                            </li>
+                                                 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+                                    <div class="mh-logo">
+                                        
+                                            <h1><a href="https://www.cebupacificair.com/tw-zh">CebuPacificAir.com</a></h1>
+                                        
+                                    </div><!--/mh-logo-->
+
+                                    
+<nav class="main-nav">
+    
+            <ul class="inline">
+        
+            <li><a href="/tw-zh/Pages/route-map.aspx" class="" >航班和費用</a></li>
+        
+            <li><a href="/tw-zh/Pages/prepaid-baggage.aspx" class="" >旅遊服務</a></li>
+        
+            <li><a href="/tw-zh/Pages/contact-us.aspx" class="" >客戶服務</a></li>
+        
+            <li><a href="javascript:void(window.open('https://www.cebupacificair.com/about-us/', '_blank'));" class="" >關於我們</a></li>
+        
+            <li><a href="https://crmweb.flyceb.com/AskCEB" class="ask" >詢問-宿航</a></li>
+         
+            </ul>   
+        
+</nav>
+
+                        
+                                </div><!--/row-->
+                            </div><!--/container-->
+                        </section><!--/mheader-->
+
+                    <div class="clearfix"></div>
+
+                    <section class="subnav">
+                        <div class="container">
+                            <div class="row mod">
+                                
+<nav class="sub-nav pull-right">
+    <ul class="inline toplevel-nav">
+        
+                <li class="dropdown dd-checkin" >
+                <a href="#" class="toplevel dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >辦理登機手續 <i class="icon-caret-down"></i></a>
+                    
+                            <div class="dropdown-menu">
+                                <div class="">
+                                    <ul class="unstyled dropdown-list">
+                                        <li class="heading"></li>
+                        
+                                        <li>&bull; <a href="https://book.cebupacificair.com/CheckInRetrieval.aspx?culture=zh-tw" >網上值機</a></li>
+                        
+                                        <li>&bull; <a href="https://book.cebupacificair.com/PrintBoardingPassRetrieval.aspx?culture=zh-tw" >打印登機牌</a></li>
+                        
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                    
+                </li>
+            
+                <li class="dropdown dd-managebooking" >
+                <a href="https://book.cebupacificair.com/RetrieveBooking.aspx?culture=zh-tw" class="toplevel dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >管理預訂 <i class="icon-caret-down"></i></a>
+                    
+                    
+                            <div class="dropdown-menu">
+                        
+                                <div class="width-twofifth pull-left">
+                                    <ul class="unstyled dropdown-list">
+                                        <li class="heading">我的預訂</li>
+                                        
+                                                <li>&bull; <a href="https://book.cebupacificair.com/CustomerBookingList.aspx?culture=zh-tw" >所有預訂</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/ViewItineraryRetrieval.aspx?culture=zh-tw" >查閱行程單</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/CheckInRetrieval.aspx?culture=zh-tw" >網上值機</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/PrintBoardingPassRetrieval.aspx?culture=zh-tw" >打印登機牌</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/ChangeFlightRetrieval.aspx?culture=zh-tw" >更改航班</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/CancelFlightRetrieval.aspx?culture=zh-tw" >取消航班</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/AddInfantRetrieval.aspx?culture=zh-tw" >增加嬰兒</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/PayNowRetrieval.aspx?culture=zh-tw" >現在付款</a></li>
+                                            
+                                    </ul>
+                                </div>
+                        
+                                <div class="width-threefifth pull-left">
+                                    <ul class="unstyled dropdown-list">
+                                        <li class="heading">訂購附加商品</li>
+                                        
+                                                <li>&bull; <a href="https://book.cebupacificair.com/BaggageRetrieval.aspx?culture=zh-tw" >增加行李</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/SeatMapRetrieval.aspx?culture=zh-tw" >保留或更改座位</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/SportsEquipmentRetrieval.aspx?culture=zh-tw" >托運運動器材</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/InsuranceRetrieval.aspx?culture=zh-tw" >購買TravelSure保險</a></li>
+                                            
+                                                <li>&bull; <a href="https://book.cebupacificair.com/MealsRetrieval.aspx?culture=zh-tw" >購買熱餐</a></li>
+                                            
+                                    </ul>
+                                </div>
+                        
+                            </div>
+                        
+                </li>
+            
+                <li class="dropdown " >
+                <a href="/tw-zh/Pages/check-flight-status.aspx" class="toplevel dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >航班狀態 <i class="icon-caret-down"></i></a>
+                    
+                    
+                </li>
+            
+                <li class="dropdown " >
+                <a href="/tw-zh/Pages/seat-sale-promo.aspx" class="toplevel dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" >促銷 <i class="icon-caret-down"></i></a>
+                    
+                    
+                </li>
+            
+    </ul>
+</nav>
+
+                            </div><!--/row-->
+                        </div><!--/container-->
+                    </section><!--/subnav-->
+
+                    <section class="subheader">
+                        <div class="container">
+                            <div class="row mod">
+                                
+                            </div>
+                        </div>
+                    </section>
+
+                    <span id="DeltaPlaceHolderMain">
+                        
+    <section class="hbanner">
+        <div class="container">
+            <div class="row mod">
+                <div class="ms-webpart-zone ms-fullWidth">
+    <div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_13b4e1e2_727e_46cc_a054_28deab1d117e" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="13b4e1e2-727e-46cc-a054-28deab1d117e" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_13b4e1e2_727e_46cc_a054_28deab1d117e" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_13b4e1e2_727e_46cc_a054_28deab1d117e">
+                
+<div id="SkySalesAvailabilitySearchDiv"></div>
+<div class="hb-bookatrip">
+    <div class="well">
+        
+                <div class="bookcategories-container">
+                    <ul class="inline book-categories">
+            
+                     <li>                
+                        <a class="home-flight active" href="#" id="hp-flight-main">
+                            <span></span>
+                            <p>航班</p>
+                        </a>
+                     </li>
+            
+                     <li>                
+                        <a class="home-hotel" href="#" id="hp-hotel-main">
+                            <span></span>
+                            <p>酒店</p>
+                        </a>
+                     </li>
+            
+                     <li>                
+                        <a class="home-cruise" href="https://ta.starcruises.com/index.php?agencyid=63" id="hp-cruise-main">
+                            <span></span>
+                            <p>邮轮</p>
+                        </a>
+                     </li>
+            
+                    </ul>
+                </div>
+            
+
+        <hr class="dotted" />
+
+        <div class="bookcategories-container trip-type">
+            <ul class="inline form book-options home">
+                <li class="opt-roundtrip">
+                    <label class="radio">
+                        <input type="radio" name="bookatrip-options" value="RoundTrip" checked="checked" id="hp-roundtrip-bookbutton" /> 往返
+                    </label>
+                </li>
+                <li class="opt-oneway">
+                    <label class="radio">
+                        <input type="radio" name="bookatrip-options" value="OneWay" id="hp-oneway-bookbutton"/> 單程
+                    </label>
+                </li>
+                <li class="opt-multicity">
+                    <label class="radio">
+                        <input type="radio" name="bookatrip-options" value="Multi-city" id="hp-multicity-bookbutton"/> 多個城市
+                    </label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="form form-book book-roundtrip">
+            <div class="form-row width-full">
+                <div class="dropdown dd-destinations">
+                    <input id="txtFromSingle" autocomplete="off" type="text" class="bold with-arrow dropdown-toggle station single-from" data-toggle="dropdown" title="請輸入出發地" placeholder="從" />
+                    <span class="hide station-code"></span>
+                    <ul class="dropdown-menu"></ul>
+                </div>
+                <div class="dropdown dd-destinations">
+                    <input id="txtToSingle"  autocomplete="off" type="text" class="bold with-arrow dropdown-toggle station single-to" data-toggle="dropdown" title="請輸入目的地" placeholder="到" />
+                    <span class="hide station-code"></span>
+                    <ul class="dropdown-menu"></ul>
+                </div>
+            </div>
+            <div class="form-row clearfix">
+                <div class="pull-left departure-date">
+                    <input type="text" autocomplete="off" class="datepicker with-cal" placeholder="起程" id="txtDepartureDateSingle" name="txtDepartureDateSingle" />
+                </div>
+                <div class="pull-right return-date">
+                    <input type="text" autocomplete="off" class="datepicker with-cal" placeholder="回程" id="txtReturnDateSingle" name="txtReturnDateSingle" />
+                </div>
+            </div>
+            <div class="form-row clearfix">
+                <div class="width-half pull-left">
+                    <h4>成人</h4>
+                    <div class="styled-select">
+                        <select name="ctl00$SPWebPartManager1$g_13b4e1e2_727e_46cc_a054_28deab1d117e$ddAdultsSingle" id="ctl00_SPWebPartManager1_g_13b4e1e2_727e_46cc_a054_28deab1d117e_ddAdultsSingle" class="selectpicker input-medium ddAdultsSingle" data-width="100%" data-size="21">
+                    <option value="">12歲以上</option>
+                    <option value="0">0</option>
+                    <option selected="selected" value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+                    </div>
+                </div>
+                <div class="width-half pull-right">
+                    <h4>兒童</h4>
+                    <div class="styled-select">
+                            <select class="selectpicker input-medium" data-width="100%" data-size="21" id="ddChildrenSingle">
+                                <option value="">12歲以下</option>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                            </select>
+                        </div>
+                </div>
+            </div>
+            <div class="form-row clearfix">
+                <div class="width-half pull-left">
+                    促銷代碼
+                    <input type="text" class="width-twothird promo-code">
+                </div>
+                <div class="width-half pull-right book-btn">
+                    <button class="btn btn-alt btn-block btn-large find-it">搜尋!</button>
+                </div>
+            </div>
+            <div class="how-to-book clearfix" id="">
+                 <a id="hp-howtobook" href="#">如何預訂</a>
+                <span id="howtobookquestion"></span>
+            </div>
+            <div class="disclaimer-no-show">N/A</div>
+        </div><!--/book-roundtrip-->
+
+        <div class="form form-book book-multicity">
+            <div class="form-row form-row-alt width-full">
+                <label>航班 1</label>
+                <div class="dropdown dd-destinations multi-from">
+                    <input id="txtFromMulti1" autocomplete="off" type="text" class="bold with-arrow dropdown-toggle station multi-from1" data-toggle="dropdown" title="請輸入出發地" placeholder="從" />
+                    <span class="hide station-code"></span>
+                    <ul class="dropdown-menu"></ul>
+                </div>
+                <div class="dropdown dd-destinations multi-to">
+                    <input id="txtToMulti1" autocomplete="off" type="text" class="bold with-arrow dropdown-toggle station multi-to1" data-toggle="dropdown" title="EnteDestination" placeholder="到" />
+                    <span class="hide station-code"></span>
+                    <ul class="dropdown-menu"></ul>
+                </div>
+                <input type="text" class="datepicker multi-departure with-cal" placeholder="起程" id="txtDepartureDateMulti" name="txtDepartureDateMulti" />
+            </div>
+            <div class="form-row form-row-alt width-full">
+                <label>航班 2</label>
+                <div class="dropdown dd-destinations multi-from">
+                    <input id="txtFromMulti2" autocomplete="off" type="text" class="bold with-arrow dropdown-toggle station multi-from2" data-toggle="dropdown" title="請輸入出發地" placeholder="從" />
+                    <span class="hide station-code"></span>
+                    <ul class="dropdown-menu"></ul>
+                </div>
+                <div class="dropdown dd-destinations multi-to">
+                    <input id="txtToMulti2" autocomplete="off" type="text" class="bold with-arrow dropdown-toggle station multi-to2" data-toggle="dropdown" title="請輸入目的地" placeholder="到" />
+                    <span class="hide station-code"></span>
+                    <ul class="dropdown-menu"></ul>
+                </div>
+                <input type="text" class="datepicker multi-departure with-cal" placeholder="回程" id="txtReturnDateMulti" name="txtReturnDateMulti" />
+            </div>
+            <div class="subform">
+                <div class="form-row clearfix">
+                    <div class="width-half pull-left">
+                        <h4>成人</h4>
+                        <div class="styled-select">
+                            <select name="ctl00$SPWebPartManager1$g_13b4e1e2_727e_46cc_a054_28deab1d117e$ddAdultsMulti" id="ctl00_SPWebPartManager1_g_13b4e1e2_727e_46cc_a054_28deab1d117e_ddAdultsMulti" class="selectpicker input-medium ddAdultsMulti" data-width="100%" data-size="21">
+                    <option value="">12歲以上</option>
+                    <option value="0">0</option>
+                    <option selected="selected" value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+                        </div>
+                    </div>
+                    <div class="width-half pull-right">
+                        <h4>兒童</h4>
+                        <div class="styled-select">
+                            <select class="selectpicker input-medium" data-width="100%" data-size="21" id="ddChildrenMulti">
+                                <option value="">12歲以下</option>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row clearfix">
+                    <div class="width-half pull-left">
+                        促銷代碼
+                        <input type="text" class="width-twothird promo-code" />
+                    </div>
+                    <div class="width-half pull-right book-btn">
+                        <button class="btn btn-alt btn-block btn-large find-it">搜尋!</button>
+                    </div>
+                </div>
+                <div class="how-to-book clearfix" id="">
+                    <a id="hp-multicity-howtobook" href="#">如何預訂</a>
+                    <span id="howtobookquestionmulti"></span>
+                </div>
+                <div class="disclaimer-no-show">N/A</div>
+            </div>
+        </div>
+
+        <div class="form form-book book-hotels">
+            <div class="form-row clearfix hotel-location">
+                <span class="text">國家 </span>
+                <div class="styled-select">
+                     <select id="drpHotelCountry"> 
+                         <option value="1">菲律賓</option>
+                         <option value="2" id="hp-agoda-bookintlist">國際</option>
+                     </select>
+                </div>
+            </div>
+            <div class="search-via-text"><span>搜尋方式</span></div>
+            <ul class="clearfix domestic-search">
+                <li class="agoda">
+                    <img class="agoda-img" src="/PublishingImages/CMS/agoda_button.png" alt="Agoda" id="hp-agoda-bookimage"/>
+                    <!--Searchbox here-->
+                </li>
+                <li class="middle-center">或者</li>
+                <li class="travelbook">
+                    <img class="travelbook-img" src="/PublishingImages/CMS/TBLogo_Button.png" alt="TravelBook" id="hp-travelbook-bookimage"/>
+                    <!--Searchbox here-->
+                </li>
+            </ul>
+            <div class="large-img">
+                <ul class="clearfix large-domestic-search">
+                    <li class="agoda">
+                        <img class="agoda-img" src="/PublishingImages/CMS/agoda_button.png" alt="Agoda" id="hp-agoda-bookimage" />
+                        <!--Searchbox here-->
+                    </li>
+                    <li class="middle-center">或者</li>
+                    <li class="travelbook">
+                        <img class="travelbook-img" src="/PublishingImages/CMS/TBLogo_Button.png" alt="TravelBook" id="hp-travelbook-bookimage" />
+                        <!--Searchbox here-->
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix checkin-details">
+                <div>
+                    <h4>地點 </h4>
+                    <span class="location">
+                        <input type="text" autocomplete="off" class="datepicker" id="txtHotelLocation" name="txtHotelLocation" /></span>
+                    <h4>入住 </h4>
+                    <span class="in-date"><input type="text" autocomplete="off" class="datepicker with-cal" id="txtHotelCheckin" name="txtHotelCheckin" /></span>
+                    <span class="literal">退房 <span id="ltCheckOutDetails"></span></span>
+                </div> 
+            </div>
+            <div class="num-nights">
+                    <span class="text">天數 </span>
+                    <div class="styled-select">
+                        <select id="drpNoOfNights">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                        </select>
+                    </div>
+                </div>
+            <div class="form-row clearfix int-search">
+                <button id="hp-travelbook-booksearch" class="btn btn-alt btn-block btn-large">搜尋</button>
+            </div>
+            
+        </div>
+
+        <hr class="bar">
+        
+                <div class="book-footer">
+            
+                    <a href="https://book.cebupacificair.com/LoginAgent.aspx?culture=zh-tw" >合作代理商</a>
+            
+                 <span class="divider">&bull;</span>
+            
+                    <a href="/tw-zh/Pages/ceb-biz-partners.aspx" >宿航商務夥伴</a>
+            
+                 <span class="divider">&bull;</span>
+            
+                    <a href="https://book.cebupacificair.com/LoginAgency.aspx?culture=zh-tw" >代理主管</a>
+            
+                </div>
+            
+        
+    </div>
+    <div id="searchFlightmsg" data-source-id="">
+        <div id="flightmsgcontent"></div>
+        <b class="flightmsgarrow"></b>
+    </div>
+</div>
+
+<!-- Book: Children Modal -->
+<div id="modal-children" class="modal hide fade modal-with-dropdown" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-body">
+        <h5 class="heading">請輸入出生日期</h5>
+        <div class="form">
+            <div class="child-row">
+                <div class="form-row form-inline">
+                    <label class="child-no">#CHILD_NUM# 小孩</label>
+                    <div class="styled-select month">
+                        <select>
+                            <option value="">月份</option>
+                            <option>一月</option>
+                            <option>二月</option>
+                            <option>三月</option>
+                            <option>四月</option>
+                            <option>五月</option>
+                            <option>六月</option>
+                            <option>七月</option>
+                            <option>八月</option>
+                            <option>九月</option>
+                            <option>十月</option>
+                            <option>十一月</option>
+                            <option>十二月</option>
+                        </select>
+                    </div>
+                    <div class="styled-select day">
+                        <select>
+                            <option value="">日期</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                    </div>
+                    <div class="styled-select year">
+                        <select>
+                            <option value="">年份</option>
+                            <option>2014</option>
+                            <option>2013</option>
+                            <option>2012</option>
+                            <option>2011</option>
+                            <option>2010</option>
+                            <option>2009</option>
+                            <option>2008</option>
+                            <option>2007</option>
+                            <option>2006</option>
+                            <option>2005</option>
+                            <option>2004</option>
+                            <option>2003</option>
+                            <option>2002</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row form-row-info hide">
+                    <label class="radio">
+                        <input type="radio" name="child-options" value="lap-child" checked="checked" />
+                        <strong>不會走路的幼兒</strong> 無需座位
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="child-options" value="require-seat" />
+                        <strong>需要座位。</strong>* 將被徵收全額費用。<br>
+                        *為了安全起見，由聯邦航空管理局(FAA)批准的嬰兒座椅是必需的。
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="unaccompanied-minor hide">
+            Are you booking for an unaccompanied minor? Unaccompanied minor should be 7-11 years old for travel within the Philippines and 12-14 years old for international travel.
+Please note that they may be accommodated on the flight provided that they pay the UM Handling Fee at point of booking and furnish us with the complete necessary documents. The UM form may be downloaded on this website under the 'Customer Service' section.
+<br/><br/>
+If you intend to book for a child with an accompanying adult, please do not proceed. Kindly restart your booking and book the child and adult together in one transaction.
+If you are booking for more than 2 unaccompanied children, please call the hotline for assistance.
+        </div>
+        <div class="unaccompanied-infant hide reminder">
+            <br />Guest’s age should be 7-11 years old for travel within the Philippines and 12-14 years old for international travel to be accommodated as an unaccompanied minor. Age of your guest/s must match the age criteria for the passenger types. Adults should be 12 and over, children are age 2 to below 12 and infants are 8 days old to below 2 years old. Please book them accordingly.<br/><br/>If you intend to book for an infant, please make sure to indicate the accompanying adult. Kindly restart your booking and book the adult and infant together in one transaction.
+        </div>
+        <div class="validation reminder">
+        </div>
+        <div class="form-row text-center">
+            <br>
+            <button class="btn btn-alt continue" >繼續</button>
+            <button class="btn btn-link cancel" data-dismiss="modal" aria-hidden="true">取消</button>
+            <br>&nbsp;
+        </div>
+    </div>
+</div>
+
+            </div><div class="ms-clear"></div></div>
+        </div><div class="ms-PartSpacingVertical"></div>
+    </div><div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_0f659775_4da0_4deb_80a8_6a8926cca300" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="0f659775-4da0-4deb-80a8-6a8926cca300" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_0f659775_4da0_4deb_80a8_6a8926cca300" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_0f659775_4da0_4deb_80a8_6a8926cca300">
+                
+
+<div class="hb-slider" id="main-banner-container">
+    <div class="cycle-slideshow" 
+                    data-cycle-timeout="4000"
+                    data-cycle-slides="> div"
+                    data-cycle-pager="#cycle-hb-pager"
+                    data-cycle-pager-template="<a href='#' class='cycle-pager-pager'></a>"
+                    data-cycle-log="false"
+                    >
+        <span class="cycle-pager" id="cycle-hb-pager"></span>
+        
+                <div class="slide">
+                     <a href="https://www.cebupacificair.com/tw-zh/Pages/seat-sale-promo.aspx" >
+                        <img src="/Main Promo Banner Images/tw-promo.jpg" width="624" height="426" alt="tw-promo" />
+                     </a>
+                </div>
+               
+    </div>   
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(function () {
+            $('body .hbanner').attr('style', 'background-color: #FFE700');
+        });
+    });
+</script>
+            </div><div class="ms-clear"></div></div>
+        </div><div class="ms-PartSpacingVertical"></div>
+    </div><div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_e80bb795_56a0_433d_bf4d_e6231c1549fa" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="e80bb795-56a0-433d-bf4d-e6231c1549fa" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_e80bb795_56a0_433d_bf4d_e6231c1549fa" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_e80bb795_56a0_433d_bf4d_e6231c1549fa">
+                
+
+<div class="hb-ad" id="skyscraper-container">
+    <div class="cycle-slideshow" 
+                    data-cycle-timeout="4000"
+                    data-cycle-slides="> div"
+                    data-cycle-log="false"
+        >
+        
+        
+    </div>
+</div>
+            </div><div class="ms-clear"></div></div>
+        </div>
+    </div>
+</div>
+            </div>
+         </div>
+    </section>
+    <section class="middle-advisory">
+         <menu class="ms-hide">
+    <ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/15/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none">
+
+    </ie:menuitem>
+</menu>
+    </section>
+    <section class="sub-banner">
+        <div class="container">
+            <div class="row mod">
+                <div class="sb-cebclub">
+                    <div class="ms-webpart-zone ms-fullWidth">
+    <div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_aa0a1a8e_8327_4e40_b474_b4bee22bbfe8" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="aa0a1a8e-8327-4e40-b474-b4bee22bbfe8" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_aa0a1a8e_8327_4e40_b474_b4bee22bbfe8" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_aa0a1a8e_8327_4e40_b474_b4bee22bbfe8">
+                
+
+<div class="ceb-container">
+    <div class="ceb-border">
+        <div class="heading">
+            <img src="/PublishingImages/CMS/cebclubimage.jpg" />
+        </div>
+        <p class="ceb-content">檢索您的預訂、更新您的旅游資料等等。</p>
+        <ul class="ceb-links">
+            <a class="ceb-link" href="https://book.cebupacificair.com/cebclub.aspx?culture=zh-tw" id="hp-cebclub-login">登錄 ></a>
+            <span class="ceb-bullet">&bull;</span>
+            <a class="ceb-link" href="https://book.cebupacificair.com/Register.aspx?culture=zh-tw" id="hp-cebclub-join">加入宿航俱樂部 ></a>
+        </ul>
+    </div>
+</div>
+            </div><div class="ms-clear"></div></div>
+        </div>
+    </div>
+</div>
+                </div>
+                <div class="sb-seatsale">
+                    <div class="ms-webpart-zone ms-fullWidth">
+    <div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_e7bff243_f08f_42db_bd24_eec6579053ae" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="e7bff243-f08f-42db-bd24-eec6579053ae" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_e7bff243_f08f_42db_bd24_eec6579053ae" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_e7bff243_f08f_42db_bd24_eec6579053ae">
+                
+
+    <div class="controls">
+        <a id="cycle-ss-prev" href="#">
+            <i class="icon-chevron-left icon-2x"></i>
+        </a>
+    </div>
+
+    <div class="cycle-slideshow"
+                    data-cycle-fx="carousel"
+                    data-cycle-timeout="15000"
+                    data-cycle-carousel-visible="3"
+                    data-cycle-next="#cycle-ss-next"
+                    data-cycle-prev="#cycle-ss-prev"
+                    data-cycle-slides="> div"
+                    data-cycle-pause-on-hover="true"
+                    data-cycle-log="false"
+                    >
+        
+                <div class="slide">
+                    <a href="https://www.cebupacificair.com/tw-zh/Pages/prepaid-baggage.aspx" ><img src="/Mini Banner Images/tw-mini1.jpg" width="177" height="150" alt="tw-mini1"></a>
+                </div>
+            
+                <div class="slide">
+                    <a href="https://www.cebupacificair.com/tw-zh/Pages/seat-selector.aspx" ><img src="/Mini Banner Images/tw-mini2.jpg" width="177" height="150" alt="tw-mini2"></a>
+                </div>
+            
+                <div class="slide">
+                    <a href="https://www.cebupacificair.com/tw-zh/Pages/sports-equipment-fee.aspx" ><img src="/Mini Banner Images/tw-mini3.jpg" width="177" height="150" alt="tw-mini3"></a>
+                </div>
+            
+                <div class="slide">
+                    <a href="https://www.cebupacificair.com/Seat%20Map/seat_map_10012014.pdf" ><img src="/Mini Banner Images/mini10012014.jpg" width="177" height="150" alt="mini10012014"></a>
+                </div>
+            
+    </div>
+    
+    <div class="controls">
+        <a id="cycle-ss-next" href="#">
+            <i class="icon-chevron-right icon-2x"></i>
+        </a>
+    </div>
+            </div><div class="ms-clear"></div></div>
+        </div>
+    </div>
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="bottom-banner container">
+         <div class="ms-webpart-zone ms-fullWidth">
+    <div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_9cc68904_c803_46c8_81cb_a1e8f28c9653" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="9cc68904-c803-46c8-81cb-a1e8f28c9653" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_9cc68904_c803_46c8_81cb_a1e8f28c9653" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_9cc68904_c803_46c8_81cb_a1e8f28c9653">
+                
+
+
+<section class="alert-banner" id="travel-advisory-container">
+    <div id="ctl00_SPWebPartManager1_g_9cc68904_c803_46c8_81cb_a1e8f28c9653_lblTravelAdContainer" class="container">
+        <div class="row mod">
+            <div class="ab-traveladvisory clearfix">
+                <h4 class="heading" id="TravelAdvisoryHeaderTitle">Travel Advisory</h4>
+                <div class="cycle-slideshow"
+                    data-cycle-fx="carousel"
+                    data-cycle-timeout="30000"
+                    data-cycle-carousel-visible="1"
+                    data-cycle-carousel-slide-dimension="809"
+                    data-cycle-next="#cycle-ta-next"
+                    data-cycle-prev="#cycle-ta-prev"
+                    data-cycle-slides="> div"
+                    data-cycle-caption-template="{{slideNum}} - {{slideCount}}"
+                    data-cycle-log="false"
+                    >
+                    
+                            <div class="ta-cycle-wrap">
+                                <div class="ta-datetime">
+                                    <span class="date">08 九月 2014</span>
+                                    <span class="time">15:00 H</span>
+                                </div>
+                                <div class="ta-text">
+                                    <p>
+                                        CEB Advisory - Cancelled Tacloban Flights (UPDATE) 
+                                        <a class="more" href="/tw-zh/Pages/travel-advisory.aspx?id=23">更多 ></a>
+                                    </p>
+                                </div>
+                            </div>
+                                            
+                </div>
+                <div class="ta-nav">
+                    <a href="#" class="next" id="cycle-ta-next">Next ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            </div><div class="ms-clear"></div></div>
+        </div><div class="ms-PartSpacingVertical"></div>
+    </div><div id="MSOZoneCell_WebPartctl00_SPWebPartManager1_g_c65740ac_b640_4c14_bbe0_747da5150331" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+        <div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+            <div WebPartID="c65740ac-b640-4c14-bbe0-747da5150331" HasPers="false" id="WebPartctl00_SPWebPartManager1_g_c65740ac_b640_4c14_bbe0_747da5150331" width="100%" class="ms-WPBody " allowDelete="false" allowExport="false" style="" ><div id="ctl00_SPWebPartManager1_g_c65740ac_b640_4c14_bbe0_747da5150331">
+                
+
+<section class="posts-carousel">
+    <div class="container">
+        <div class="row mod">
+            <div class="pc-carousel">
+                <div class="controls controls-prev">
+                    <a id="cycle-pc-prev" href="#">
+                        <i class="icon-chevron-left icon-2x"></i>
+                    </a>
+                </div>
+                <div class="cycle-slideshow"
+                    data-cycle-fx="carousel"
+                    data-cycle-timeout="20000"
+                    data-cycle-carousel-visible="3"
+                    data-cycle-next="#cycle-pc-next"
+                    data-cycle-prev="#cycle-pc-prev"
+                    data-cycle-slides="> div"
+                    data-cycle-pause-on-hover="true"
+                    data-cycle-log="false"
+                    >
+                        
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="http://www.agoda.com/cebupacificair2" target="_blank" id="hp-agoda-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/4/photo.JPG" width="180" height="110" alt="Agoda.com"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="http://www.agoda.com/cebupacificair2" target="_blank" id="hp-agoda-carouseltitle">
+                                            <h4 class="heading">Agoda.com</h4>
+                                        </a>
+                                        <p>
+                                            <em>全球領先的酒店預訂網站</em> 提供最優惠的酒店價格，讓您節省高達75%。
+
+                                            <a href="http://www.agoda.com/cebupacificair2" class="more" target="_blank" id="hp-agoda-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="https://www.travelbook.ph/cebupacificair" target="new" id="hp-travelbook-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/6/tb-pic.jpg" width="180" height="110" alt="TravelBook"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="https://www.travelbook.ph/cebupacificair" target="new" id="hp-travelbook-carouseltitle">
+                                            <h4 class="heading">TravelBook</h4>
+                                        </a>
+                                        <p>
+                                            <em>為大家提供實惠的酒店價格！</em> 在此獲取合理的價格和特別優惠。
+
+                                            <a href="https://www.travelbook.ph/cebupacificair" class="more" target="new" id="hp-travelbook-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="http://ta.starcruises.com/index.php?agencyid=63" target="_blank" id="hp-cruise-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/3/cebupacific_homepage.jpg" width="180" height="110" alt="乘船遊覽"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="http://ta.starcruises.com/index.php?agencyid=63" target="_blank" id="hp-cruise-carouseltitle">
+                                            <h4 class="heading">乘船遊覽</h4>
+                                        </a>
+                                        <p>
+                                            <em>一個充滿探險樂趣和驚喜的旅程。</em> 立即規劃您的假期，以享有大優惠。
+
+                                            <a href="http://ta.starcruises.com/index.php?agencyid=63" class="more" target="_blank" id="hp-cruise-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="https://www.cebupacificair.com/html/ceb-online-shopping.html" target="_blank" id="hp-lazada-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/22/CebPacific_CountdownDeals.jpg" width="180" height="110" alt="宿航網上購物"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="https://www.cebupacificair.com/html/ceb-online-shopping.html" target="_blank" id="hp-lazada-carouseltitle">
+                                            <h4 class="heading">宿航網上購物</h4>
+                                        </a>
+                                        <p>
+                                            <em>獻給喜愛購物之士！</em> 不必出門即可在家里或辦公室輕鬆購物。
+
+                                            <a href="https://www.cebupacificair.com/html/ceb-online-shopping.html" class="more" target="_blank" id="hp-lazada-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="http://cebuairdestinations.com/" target="_blank" id="hp-topdest-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/1/new%20interface%20home%20page%20banner%20image.jpg" width="180" height="110" alt="熱門目的地"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="http://cebuairdestinations.com/" target="_blank" id="hp-topdest-carouseltitle">
+                                            <h4 class="heading">熱門目的地</h4>
+                                        </a>
+                                        <p>
+                                            <em>接著要去哪裡？</em> 讓Ceb充當您在各個航點的旅遊、活動及酒店指南。
+
+                                            <a href="http://cebuairdestinations.com/" class="more" target="_blank" id="hp-topdest-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="http://www.ticketworld.com.ph/cebupacific" target="_blank" id="hp-ticketworld-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/8/cebumainpage_ticketworld.jpg" width="180" height="110" alt="票務世界"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="http://www.ticketworld.com.ph/cebupacific" target="_blank" id="hp-ticketworld-carouseltitle">
+                                            <h4 class="heading">票務世界</h4>
+                                        </a>
+                                        <p>
+                                            <em></em> 演唱會、表演、運動以及旅遊景點。在票務世界訂票就不會錯過最新活動！
+
+                                            <a href="http://www.ticketworld.com.ph/cebupacific" class="more" target="_blank" id="hp-ticketworld-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="http://www.avispartner.com/cebu/index.php" target="_blank" id="hp-avis-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/7/Audi%20185%20x%20110.jpg" width="180" height="110" alt="Avis"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="http://www.avispartner.com/cebu/index.php" target="_blank" id="hp-avis-carouseltitle">
+                                            <h4 class="heading">Avis</h4>
+                                        </a>
+                                        <p>
+                                            <em></em> 在亞太區、美國、加拿大、歐洲、中東以及非洲的Avis租車，即可獲享10%折扣。
+
+
+                                            <a href="http://www.avispartner.com/cebu/index.php" class="more" target="_blank" id="hp-avis-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                                <div class="carousel_item">
+                                    <div class="carousel_img">
+                                        <a class="carousel_img_link" href="http://www.travelsure.ph" target="_blank" id="hp-travelsure-carouselimage" >
+                                            <img src="/Lists/Travel%20Commerce/Attachments/5/Travel%20Sure%20Home%20Page%20Banner%20Ad%20185%20x%20110%20px.jpg" width="180" height="110" alt="Travelsure"></a>
+                                    </div>
+                                    <div class="carousel_text">
+                                        <a href="http://www.travelsure.ph" target="_blank" id="hp-travelsure-carouseltitle">
+                                            <h4 class="heading">Travelsure</h4>
+                                        </a>
+                                        <p>
+                                            <em>別讓旅遊瑣事破壞您的旅程。  </em> Travelsure讓您放心出遊！
+
+                                            <a href="http://www.travelsure.ph" class="more" target="_blank" id="hp-travelsure-carouselmore">更多 ></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            
+                    </div>             
+                <div class="controls controls-next">
+                    <a id="cycle-pc-next" href="#">
+                        <i class="icon-chevron-right icon-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+            </div><div class="ms-clear"></div></div>
+        </div>
+    </div>
+</div>
+    </section>
+<div style='display:none' id='hidZone'></div>
+                    </span>
+
+                    <section class="ads-banner">
+                        <div class="container">
+                            <div class="row mod">
+                                <div class="ads">
+                                    <span>
+                                            
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- NewHomepage -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:728px;height:90px"
+         data-ad-client="ca-pub-4154961809533956"
+         data-ad-slot="8721949521"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </section><!--/ads-banner-->
+
+                    <section class="footer">
+                        <div class="container">
+                            <div class="row mod">
+                                
+                                
+<div class="footer-links clearfix">
+    
+            <ul class="unstyled fl-bookatrip">
+                <li class="heading">預訂行程</li>
+                
+                        <li>• <a href="/tw-zh/" class="" id="hp-flight-footer">航班</a></li>
+                    
+                        <li>• <a href="http://www.agoda.com/cebupacificair2" class="" id="hp-hotel-footer">酒店</a></li>
+                    
+                        <li>• <a href="http://www.avispartner.com/cebu/index.php" class="" id="hp-car-footer">汽車</a></li>
+                    
+                        <li>• <a href="https://ta.starcruises.com/index.php?agencyid=63" class="home-cruise" >邮轮</a></li>
+                    
+            </ul>
+        
+            <ul class="unstyled fl-checkin">
+                <li class="heading">辦理登機手續</li>
+                
+                        <li><a href="https://book.cebupacificair.com/CheckInRetrieval.aspx?culture=zh-tw" class="no-bullet" >您航班預計起飛時間的24至3個小時之前。</a></li>
+                    
+            </ul>
+        
+            <ul class="unstyled fl-manage">
+                <li class="heading">管理預訂</li>
+                
+                        <li>• <a href="https://book.cebupacificair.com/CustomerBookingList.aspx?culture=zh-tw" class="" >檢索預訂</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/CheckInRetrieval.aspx?culture=zh-tw" class="" >辦理登機手續</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/PrintBoardingPassRetrieval.aspx?culture=zh-tw" class="" >打印登機牌</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/ChangeFlightRetrieval.aspx?culture=zh-tw" class="" >更改航班</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/CancelFlightRetrieval.aspx?culture=zh-tw" class="" >取消航班</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/BaggageRetrieval.aspx?culture=zh-tw" class="" >升級行李</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/SeatMapRetrieval.aspx?culture=zh-tw" class="" >保留或更改座位</a></li>
+                    
+            </ul>
+        
+            <ul class="unstyled fl-status">
+                <li class="heading">航班狀態</li>
+                
+                        <li><a href="/tw-zh/Pages/check-flight-status.aspx" class="no-bullet" >查看您的航班是否已起飛、抵達或改期。</a></li>
+                    
+            </ul>
+        
+            <ul class="unstyled fl-quicklinks">
+                <li class="heading">快速鏈接</li>
+                
+                        <li>• <a href="/tw-zh/Pages/seat-sale-promo.aspx" class="" >促銷</a></li>
+                    
+                        <li>• <a href="/tw-zh/Pages/flight-schedule.aspx" class="" >航班時間表</a></li>
+                    
+                        <li>• <a href="/tw-zh/Pages/payment-center.aspx" class="" >付款中心</a></li>
+                    
+                        <li>• <a href="/tw-zh/Pages/airport-list.aspx" class="" >機場列表</a></li>
+                    
+                        <li>• <a href="https://book.cebupacificair.com/LoginAgent.aspx?culture=zh-tw" class="" >合作代理商</a></li>
+                    
+                        <li>• <a href="/tw-zh/Pages/ceb-biz-partners.aspx" class="" >宿航商務合作夥伴</a></li>
+                    
+                        <li>• <a href="/tw-zh/Pages/site-map.aspx" class="" >網站導航</a></li>
+                    
+            </ul>
+        
+            <ul class="unstyled fl-social">
+                <li class="heading">關注我們</li>
+                
+                        <li><a href="javascript:void(window.open('https://www.facebook.com/cebupacificair', '_blank'));" class="social social-fb" id="hp-facebook-social"><span>面子書</span></a></li>
+                    
+                        <li><a href="javascript:void(window.open('https://twitter.com/cebupacificair', '_blank'));" class="social social-tw" id="hp-twitter-social"><span>推特</span></a></li>
+                    
+                        <li><a href="javascript:void(window.open('http://www.youtube.com/user/Cebupacificair?feature=mhee', '_blank'));" class="social social-yt" id="hp-youtube-social"><span>優管</span></a></li>
+                    
+                        <li><a href="javascript:void(window.open('http://instagram.com/cebupacificair', '_blank'));" class="social social-le" id="hp-instagram-social"><span>Instagram</span></a></li>
+                    
+            </ul>
+        
+</div>
+
+
+                                <hr class="alt">
+
+                                <div class="footer-bottom">
+                                    <div class="fb-logos1">
+                                        
+                                            <a href="https://www.cebupacificair.com/tw-zh/Pages/on-time-performance.aspx"><img border="0" src="/PublishingImages/CMS/otp.jpg" alt=""></a>
+                                        
+                                        
+                                    </div>
+
+                                    <div class="fb-links">
+
+                                        
+<div class="links_nav">
+    
+            <a href="/tw-zh/" >主頁</a> 
+        
+            <span class="divider">&bull;</span>
+        
+            <a href="/tw-zh/Pages/route-map.aspx" >航班和費用</a> 
+        
+            <span class="divider">&bull;</span>
+        
+            <a href="/tw-zh/Pages/prepaid-baggage.aspx" >旅遊服務</a> 
+        
+            <span class="divider">&bull;</span>
+        
+            <a href="/tw-zh/Pages/contact-us.aspx" >客戶服務</a> 
+        
+            <span class="divider">&bull;</span>
+        
+            <a href="javascript:void(window.open('https://www.cebupacificair.com/about-us/', '_blank'));" >關於我們</a> 
+        
+            <span class="divider">&bull;</span>
+        
+            <a href="/tw-zh/Pages/contact-us.aspx" >聯繫我們</a> 
+        
+</div>
+
+
+                                        
+<div class="links_docs">
+    
+            <a href="/tw-zh/Pages/general-terms-and-conditions.aspx" >一般條款和條件</a> 
+        
+             <span class="divider">&bull;</span>
+        
+            <a href="/tw-zh/Pages/website-terms-of-use.aspx" >網站使用條款</a> 
+        
+             <span class="divider">&bull;</span>
+        
+            <a href="/tw-zh/Pages/privacy-policy.aspx" >隱私權政策</a> 
+        
+</div>
+
+                                        
+                                        <!--<div class="copyright">
+                                            &copy; Copyright 2013 Cebu Pacific
+                                        </div>-->
+
+                                    </div><!--/fb-links-->
+
+                                    <div class="fb-logos2">
+                                        <img src="/PublishingImages/CMS/logo_verified.jpg" width="170" height="91" alt="verified">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="DeltaFormDigest">
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;window.g_updateFormDigestPageLoaded = new Date(); window.g_updateFormDigestPageLoaded.setDate(window.g_updateFormDigestPageLoaded.getDate() -5);var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{31f583ec-396d-424b-a5f1-f192aba22276}",itemId: 172,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002ftw-zh\u002fPages",itemPermissions:{High:16,Low:196673}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+//]]>
+</script>
+</form><span id="DeltaPlaceHolderUtilityContent"></span>
+
+        
+        <script type="text/javascript" src="/_layouts/15/CEB.CMS/Plugins/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/_layouts/15/CEB.CMS/Plugins/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="/_layouts/15/CEB.CMS/Plugins/bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="/_layouts/15/CEB.CMS/Plugins/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="/_layouts/15/CEB.CMS/Plugins/jquery.cycle2.carousel.min.js"></script>
+    </body>
+
+</html>
