@@ -199,3 +199,15 @@ class CebuPacificAirTicket(scrapy.Item):
     datetimeStart = scrapy.Field()
     datetimeEnd = scrapy.Field()
     isTransferred = scrapy.Field()
+
+class AirBusanTicket(scrapy.Item):
+    company = scrapy.Field()
+    flight = scrapy.Field()
+    fromCity = scrapy.Field()
+    toCity = scrapy.Field()
+    price = scrapy.Field()
+    flyingDate = scrapy.Field()
+    datetimeStart = scrapy.Field()
+    datetimeEnd = scrapy.Field()
+    info = scrapy.Field()
+    isTransferred = scrapy.Field()
