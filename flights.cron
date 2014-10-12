@@ -1,41 +1,41 @@
 # China Airline
-00 05 * * * /data/tickets/Flights/ChinaAirline/chinaairline.sh /data/tickets/Flights/ChinaAirline/asis.cfg
-00 07 * * * /data/tickets/Flights/ChinaAirline/chinaairline.sh /data/tickets/Flights/ChinaAirline/europe.cfg
-00 09 * * * /data/tickets/Flights/ChinaAirline/chinaairline.sh /data/tickets/Flights/ChinaAirline/america.cfg
+00 05 * * * /data/tickets/Flights/ChinaAirline/chinaairline.sh /data/tickets/Flights/ChinaAirline/fromCity.cfg /data/tickets/Flights/ChinaAirline/toCity_asis.cfg
+00 07 * * * /data/tickets/Flights/ChinaAirline/chinaairline.sh /data/tickets/Flights/ChinaAirline/fromCity.cfg /data/tickets/Flights/ChinaAirline/toCity_europe.cfg
+00 09 * * * /data/tickets/Flights/ChinaAirline/chinaairline.sh /data/tickets/Flights/ChinaAirline/fromCity.cfg /data/tickets/Flights/ChinaAirline/toCity_america.cfg
 
 # 酷航
-00 03 * * * /data/tickets/Flights/Flyscoot/flyscoot.sh /data/tickets/Flights/Flyscoot/origin.cfg /data/tickets/Flights/Flyscoot/destination.cfg
+00 03 * * * /data/tickets/Flights/Flyscoot/flyscoot.sh /data/tickets/Flights/Flyscoot/fromCity.cfg /data/tickets/Flights/Flyscoot/toCity.cfg
 
 # 捷星航空
-00 01 * * * /data/tickets/Flights/JetStar/jetstar.sh /data/tickets/Flights/JetStar/destination.cfg
+00 01 * * * /data/tickets/Flights/JetStar/jetstar.sh /data/tickets/Flights/JetStar/fromCity.cfg /data/tickets/Flights/JetStar/toCity.cfg
 
 # CebuPacificAir
-00 05 * * * /data/tickets/Flights/CebuPacificAir/cebupacificair.sh /data/tickets/Flights/CebuPacificAir/city.cfg
+00 05 * * * /data/tickets/Flights/CebuPacificAir/cebupacificair.sh /data/tickets/Flights/CebuPacificAir/fromCity.cfg /data/tickets/Flights/CebuPacificAir/toCity.cfg
 
 # 中國南方航空
-00 02 * * * /data/tickets/Flights/Csair/csair.sh /data/tickets/Flights/Csair/china.cfg /data/tickets/Flights/Csair/foreign.cfg
+00 02 * * * /data/tickets/Flights/Csair/csair.sh /data/tickets/Flights/Csair/fromCity.cfg /data/tickets/Flights/Csair/toCity.cfg
 
 # 亞洲航空
-00 07 * * * /data/tickets/Flights/AirAsia/asiaair.sh /data/tickets/Flights/AirAsia/destination.cfg
+00 07 * * * /data/tickets/Flights/AirAsia/asiaair.sh /data/tickets/Flights/AirAsia/fromCity.cfg /data/tickets/Flights/AirAsia/toCity.cfg
 
 # 中國東方航空
-10 00 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/asis.cfg
-10 06 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/america.cfg
-10 12 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/europe.cfg
-10 18 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/oceanian.cfg
+10 00 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/toCity_asis.cfg
+10 06 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/toCity_america.cfg
+10 12 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/toCity_europe.cfg
+10 18 * * * /data/tickets/Flights/ChinaEastern/chinaeastern.sh /data/tickets/Flights/ChinaEastern/fromCity.cfg /data/tickets/Flights/ChinaEastern/toCity_oceanian.cfg
 
 # 樂桃航空
-30 21 * * * /data/tickets/Flights/Peach/peach.sh /data/tickets/Flights/Peach/asis.cfg
+30 21 * * * /data/tickets/Flights/Peach/peach.sh /data/tickets/Flights/Peach/fromCity.cfg /data/tickets/Flights/Peach/toCity.cfg
 
 # 香草航空
-00 22 * * * /data/tickets/Flights/VanillaAir/vanillaair.sh /data/tickets/Flights/VanillaAir/origin.cfg /data/tickets/Flights/VanillaAir/destination.cfg
+00 22 * * * /data/tickets/Flights/VanillaAir/vanillaair.sh /data/tickets/Flights/VanillaAir/fromCity.cfg /data/tickets/Flights/VanillaAir/toCity.cfg
 
 # 長榮航空
-00 06 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/asis.cfg
-00 08 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/america.cfg
-00 13 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/oceanian.cfg
-00 15 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/europe.cfg
-00 21 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/china.cfg
+00 06 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/fromCity.cfg /data/tickets/Flights/EvaAirline/toCity_asis.cfg
+00 08 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/fromCity.cfg /data/tickets/Flights/EvaAirline/toCity_america.cfg
+00 13 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/fromCity.cfg /data/tickets/Flights/EvaAirline/toCity_oceanian.cfg
+00 15 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/fromCity.cfg /data/tickets/Flights/EvaAirline/toCity_europe.cfg
+00 21 * * * /data/tickets/Flights/EvaAirline/evaairline.sh /data/tickets/Flights/EvaAirline/fromCity.cfg /data/tickets/Flights/EvaAirline/toCity_china.cfg
 
 # 虎航
 00 04 * * * /data/tickets/Flights/TigerAir/tigerair.sh /data/tickets/Flights/TigerAir/fromCity.cfg /data/tickets/Flights/TigerAir/toCity.cfg

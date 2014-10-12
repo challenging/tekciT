@@ -3,26 +3,13 @@
 basepath=$(dirname "$0")
 cd ${basepath}
 
-fromCityFile=$1
-if [ ! -e ${fromCityFile} ]; then
-    echo "Not Found ${fromCityFile}"
-    exit 1
-fi
-
-toCityFile=$2
-if [ ! -e "${toCityFile}" ]; then
-    echo "Not Found ${toCityFile}"
-    exit 2
-fi
+source ../spider_util.sh
 
 spiderName=TigerAir
-today=$(date +%Y%m%d)
+fromCityFile=$1
+toCityFile=$2
 
-jobPath=${spiderName}/${today}
-mkdir -p ${jobPath}/json
-
-logPath=${spiderName}.${today}.log
-touch ${logPath}
+init "${fromCityFile}" "${toCityFile}"
 
 for fromCity in $(cat ${fromCityFile});
 do
@@ -31,32 +18,19 @@ do
         for date in $(echo "7,22" "23,45");
         do
             log=${fromCity}-${toCity}-${date}
-
-            isDone=$(grep "${log}" ${logPath} | wc -l)
-            isDone=$(printf "%d" ${isDone})
+            isDone=$(isSkip ${log})
 
             if [ ${isDone} -eq 0 ]; then
                 dateStart=$(echo ${date} | cut -d "," -f1)
                 dateEnd=$(echo ${date} | cut -d "," -f2)
 
-                /usr/local/bin/scrapy crawl ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a dateStart=${dateStart} -a dateEnd=${dateEnd}
+                ${SCRAPY} ${SCRAPY_OPTS} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a dateStart=${dateStart} -a dateEnd=${dateEnd}
                 ret=$?
                 if [ ${ret} -eq 0 ]; then
-                    jsonFile=${spiderName}.${dateStart}.${fromCity}.${toCity}.json
-
-                    if [ -s "${spiderName}.${today}.json" ]; then
-                        mv ${spiderName}.${today}.json ${jsonFile}
-                        mv ${jsonFile} ${jobPath}/json
-                    else
-                        echo "Empty Results - ${spiderName}.${today}.json"
-                        rm "${spiderName}.${today}.json"
-                    fi
-
-                    echo "${log}" >> ${logPath}
+                    success ${dateStart} ${fromCity} ${toCity} ${log}
                     sleep 5
                 else
-                    echo "Fail(ret=${ret} - scrapy crawl ${spiderName} -a fromCity=${fromCity} -a toCity=${toCity} -a dateStart=${dateStart} -a dateEnd=${dateEnd})"
-                    exit 999
+                    fail ${ret} "${SCRAPY} ${SCRAPY} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a dateStart=${dateStart} -a dateEnd=${dateEnd}"
                 fi
             else
                 echo "Skip ${log}"

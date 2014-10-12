@@ -4,47 +4,37 @@ basepath=$(dirname "$0")
 echo "Change working directory - ${basepath}"
 cd "${basepath}"
 
-areaFile=$1
-if [ ! -e "${areaFile}" ]; then
-    echo "Not Found ${areaFile}"
-    exit 999
-fi
+source ../spider_util.sh
 
 spiderName=ChinaAirline
-date=$(date +%Y%m%d)
+fromCityFile=$1
+toCityFile=$2
 
-jobPath=${spiderName}/${date}
-mkdir -p ${jobPath}/json
+init "${fromCityFile}" "${toCityFile}"
 
-logPath=${spiderName}.${date}.log
-touch ${logPath}
-
-for country in $(cat "${areaFile}");
+for fromCity in $(cat ${fromCityFile});
 do
-    isDone=$(grep "${country}" ${logPath} | wc -l)
-    isDone=$(printf "%d" ${isDone})
+    for toCity in $(cat "${toCityFile}");
+    do
+        log=${fromCity}-${toCity}-${date}
+        isDone=$(isSkip ${log})
 
-    if [ ${isDone} -eq 0 ]; then
-        for plusDate in $(echo "1" "15" "29" "43");
-        do
-            /usr/local/bin/scrapy crawl ${spiderName} -a toCity=${country} -a fromCity=TPE -a plusDate=${plusDate} -a periodType=0 -s JOBDIR=${jobPath}
+        if [ ${isDone} -eq 0 ]; then
+            for plusDate in $(echo "1" "15" "29" "43");
+            do
+                ${SCRAPY} ${SCRAPY_OPTS} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${plusDate} -a periodType=0
+                ret=$?
+                if [ ${ret} -eq 0 ]; then
+                    success ${plusDate} ${fromCity} ${toCity} ${log}
+                    sleep 5
+                else
+                    fail ${ret} "${SCRAPY} ${SCRAPY} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${plusDate} -a periodType=0"
+                fi
+            done
 
-            jsonFile=${spiderName}.${date}.${country}.${plusDate}.json
-            if [ -s ${jsonFile} ]; then
-                jsonFile=${spiderName}.${date}.${country}.${plusDate}.json
-
-                mv ${spiderName}.${date}.json ${jsonFile}
-                mv ${jsonFile} ${jobPath}/json
-            else
-                echo "Empty Results - ${jsonFile}"
-                rm -f ${jsonFile}
-            fi
-
-            sleep 5
-        done
-
-        echo "${country}" >> ${logPath}
-    else
-        echo "Skip ${country}"
-    fi
+            echo "${log}" >> ${logPath}
+        else
+            echo "Skip ${country}"
+        fi
+    done
 done
