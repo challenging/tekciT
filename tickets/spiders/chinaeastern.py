@@ -6,11 +6,11 @@ import socket
 import re
 
 from scrapy.contrib.spiders import CrawlSpider
-
 from tickets.items import ChinaEasternTicket
 
-from pyvirtualdisplay import Display
 import selenium.webdriver.support.ui as ui
+
+from pyvirtualdisplay import Display
 from selenium import selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

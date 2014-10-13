@@ -1,7 +1,6 @@
 #!/bin/sh
 
 basepath=$(dirname "$0")
-echo "Change working directory - ${basepath}"
 cd "${basepath}"
 
 source ../spider_util.sh
@@ -28,13 +27,13 @@ do
                     success ${plusDate} ${fromCity} ${toCity} ${log}
                     sleep 5
                 else
-                    fail ${ret} "${SCRAPY} ${SCRAPY} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${plusDate} -a periodType=0"
+                    fail ${ret} '${SCRAPY} ${SCRAPY} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${plusDate} -a periodType=0'
                 fi
             done
 
             echo "${log}" >> ${logPath}
         else
-            echo "Skip ${country}"
+            echo "Skip ${city}"
         fi
     done
 done

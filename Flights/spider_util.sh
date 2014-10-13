@@ -17,10 +17,11 @@ isExists(){
 }
 
 init(){
-    local fromCityFile=$2
-    local toCityFile=$3
+    local fromCityFile=$1
+    local toCityFile=$2
 
-    isExists ${fromCityFile} ${toCityFile}
+    isExists ${fromCityFile}
+    isExists ${toCityFile}
 
     today=$(date +%Y%m%d)
 
