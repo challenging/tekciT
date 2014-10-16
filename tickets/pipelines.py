@@ -10,10 +10,9 @@ from scrapy import signals
 import time
 import jsonlib2 as json
 
-class BackpackersPipeline(object):
+class TicketPipeline(object):
     def __init__(self, settings):
         pass
-        #self.file = open("backpackers.%s.j1" %time.strftime("%Y%m%d"), "wb")
 
     @classmethod
     def from_crawler(cls, crawler):

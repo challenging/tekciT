@@ -6,9 +6,3 @@
 *.json
 
 *.pyc
-
-*.pyc
-
-tickets/items.pyc
-
-tickets/spiders/tigerair.pyc

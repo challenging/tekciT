@@ -13,9 +13,9 @@ BOT_NAME = 'China Happy New Year'
 SPIDER_MODULES = ['tickets.spiders']
 NEWSPIDER_MODULE = 'tickets.spiders'
 
-#ITEM_PIPELINES = {
-#    "tickets.pipelines.BackpackersPipeline": 11
-#}
+ITEM_PIPELINES = {
+    "tickets.pipelines.TicketPipeline": 11
+}
 
 DUPEFILTER_CLASS = 'tickets.duplicated_filter.SeenURLFilter'
 
