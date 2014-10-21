@@ -4,7 +4,6 @@ import sys, exceptions
 import time, datetime
 import socket, re
 
-from scrapy.http import Request
 from scrapy.contrib.spiders import CrawlSpider
 
 from tickets.items import VanillaAirTicket
