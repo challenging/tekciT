@@ -1,11 +1,10 @@
-#coding=utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import sys, datetime, time, copy
 
 import scrapy
-from tickets.items import ChinaAirlineTicket, ChinaAirlineFlight, OnewayTicket
-
-from scrapy.utils.project import get_project_settings
+from tickets.items import OnewayTicket
 
 class ChinaAirlineSpider(scrapy.Spider):
     name = 'ChinaAirline'
@@ -17,30 +16,11 @@ class ChinaAirlineSpider(scrapy.Spider):
     date_oneway_url = "https://caleb.china-airlines.com/olbn/Date_Oneway.aspx"
 
     def __init__(self, fromCity, toCity, periodType, plusDate):
-        settings = get_project_settings()
-        className = self.__class__.__name__.upper()
+        self.fromCity = [fromCity]
+        self.toCity = [toCity]
+        self.plusDate = [plusDate]
+        self.periodType = int(periodType)
 
-        if fromCity == "":
-            self.fromCity = settings.get("%s_FROM_CITY" %className).split(",")
-        else:
-            self.fromCity = [fromCity]
-
-        if toCity == "":
-            self.toCity = settings.get("%s_TO_CITY" %className).split(",")
-        else:
-            self.toCity = [toCity]
-
-        if plusDate == "":
-            self.plusDate = settings.get("%s_DATE" %className).split(",")
-        else:
-            self.plusDate = [plusDate]
-
-        self.periodType = periodType
-
-        self.cabinClass = settings.get("%s_CABINCLASS" %className)
-        self.weekNum = settings.getint("%s_WEEK" %className)
-
-        self.tickets = []
         self.ticketFromCity = None
         self.ticketToCity = None
 
@@ -54,10 +34,10 @@ class ChinaAirlineSpider(scrapy.Spider):
         url = None
         callback = None
 
-        if self.periodType == "0":
+        if self.periodType == 0:
             url = self.travel_url
             callback = self.dateOneway
-        elif self.periodType == "2":
+        elif self.periodType == 2:
             url = self.travel_url
             callback = self.flight
 
@@ -87,8 +67,8 @@ class ChinaAirlineSpider(scrapy.Spider):
                         'ctl00$ContentPlaceHolder1$backDay': day,
                         'ctl00$ContentPlaceHolder1$backDate': goDate,
                         'ctl00$ContentPlaceHolder1$backNotSure': backNotSure,
-                        'ctl00$ContentPlaceHolder1$periodType': self.periodType,
-                        'ctl00$ContentPlaceHolder1$cabinClass': self.cabinClass,
+                        'ctl00$ContentPlaceHolder1$periodType': periodType,
+                        'ctl00$ContentPlaceHolder1$cabinClass': "Y",
                         'ctl00$ContentPlaceHolder1$adultNumber': "1",
                         'ctl00$ContentPlaceHolder1$childNumber': "0",
                         'ctl00$ContentPlaceHolder1$errRedirect': "",
