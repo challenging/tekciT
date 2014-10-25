@@ -36,7 +36,7 @@ class AirAsiaSpider(scrapy.Spider):
             ticket["price"] = goPrice[idx]
             ticket["info"] = goCur[idx]
 
-            if goFlyingDate[idx] != "0001-01-01-00-00-00":
+            if goFlyingDate[idx] != "0001-01-01-00-00-00" and goPrice[idx] != "0":
                 yield ticket
 
         backFlyingDate = response.xpath("//ul[@id='BodyContent_lfcReturnCalendar_ulCalendar']//li/@data-std").extract()
@@ -52,7 +52,7 @@ class AirAsiaSpider(scrapy.Spider):
             ticket["price"] = backPrice[idx]
             ticket["info"] = backCur[idx]
 
-            if backFlyingDate[idx] != "0001-01-01-00-00-00":
+            if backFlyingDate[idx] != "0001-01-01-00-00-00" and backPrice[idx] != "0":
                 yield ticket
     '''
     def parse(self, response):
