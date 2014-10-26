@@ -31,7 +31,7 @@ do
                 fi
                 echo "${log}" >> ${logPath}
             else
-                echo "Skip ${city}"
+                echo "Skip ${log}"
             fi
         done
     done
