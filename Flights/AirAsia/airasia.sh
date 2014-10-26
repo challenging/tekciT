@@ -20,9 +20,6 @@ do
             log=${fromCity}-${toCity}-${date}
             isDone=$(isSkip ${log})
 
-            fromCity=$(echo ${fromCity} | sed 's/-/ /g')
-            toCity=$(echo ${toCity} | sed 's/-/ /g')
-
             if [ ${isDone} -eq 0 ]; then
                 ${SCRAPY} ${SCRAPY_OPTS} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${date}
                 ret=$?
