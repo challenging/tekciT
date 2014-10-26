@@ -49,15 +49,18 @@ success(){
 
     jsonFile="${spiderName}.${date}.${fromCity}.${toCity}.json"
 
+    count=0
     if [ -s "${spiderName}.${today}.json" ]; then
+        count=$(wc -l "${spiderName}.${today}.json" | awk '{print $1}')
         mv "${spiderName}.${today}.json" "${jsonFile}"
         mv "${jsonFile}" ${jobPath}/json
     else
-        echo "Empty Results - ${spiderName}.${today}.json" >> ${logPath}
+        echo "Empty Results - ${spiderName}.${date}.${fromCity}.${toCity}.json" >> ${logPath}
         rm "${spiderName}.${today}.json"
     fi
 
     echo "${log}" >> ${logPath}
+    echo ${count}
 }
 
 fail(){
