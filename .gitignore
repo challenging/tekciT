@@ -5,10 +5,4 @@
 
 *.json
 
-*.pyc
-
-*.pyc
-
-*.pyc
-
-*.pyc
+tickets/spiders/*.pyc
