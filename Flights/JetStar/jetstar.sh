@@ -17,17 +17,17 @@ do
     do
         for date in $(echo "14" "42");
         do
-            log=${fromCity}-${toCity}-${date}
-            isDone=$(isSkip ${log})
+            log="${fromCity}-${toCity}-${date}"
+            isDone=$(isSkip "${log}")
 
-            fromCity=$(echo ${fromCity} | sed 's/-/ /g')
-            toCity=$(echo ${toCity} | sed 's/-/ /g')
+            fromCity=$(echo "${fromCity}" | sed 's/-/ /g')
+            toCity=$(echo "${toCity}" | sed 's/-/ /g')
 
             if [ ${isDone} -eq 0 ]; then
                 ${SCRAPY} ${SCRAPY_OPTS} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${date}
                 ret=$?
                 if [ ${ret} -eq 0 ]; then
-                    success ${date} ${fromCity} ${toCity} ${log}
+                    success ${date} "${fromCity}" "${toCity}" "${log}"
                     sleep 5
                 else
                     fail ${ret} "${SCRAPY} ${SCRAPY_OPTS} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a plusDate=${date}"
