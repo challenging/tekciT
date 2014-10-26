@@ -34,7 +34,7 @@ class CebuPacificAirSpider(scrapy.Spider):
 
         for plusDate in range(self.dateStart, self.dateEnd+1):
             flyingDate = datetime.date.today() + datetime.timedelta(days=plusDate)
-            print flyingDate.strftime("%Y-%m-%d"), self.fromCity, self.toCity
+            #print flyingDate.strftime("%Y-%m-%d"), self.fromCity, self.toCity
 
             formdata["ControlGroupSearchView$AvailabilitySearchInputSearchView$DropDownListMarketDay1"] = flyingDate.strftime("%d")
             formdata["ControlGroupSearchView$AvailabilitySearchInputSearchView$DropDownListMarketMonth1"] = flyingDate.strftime("%Y-%m")
@@ -49,7 +49,7 @@ class CebuPacificAirSpider(scrapy.Spider):
                                      callback = self.ticket)
 
     def ticket(self, response):
-        flights = response.xpath("//input[re:test(@id, 'ControlGroupSelectView_AvailabilityInputSelectView_RadioButtonMkt\dFare')]/@value").extract()
+        flights = response.xpath("//input[re:test(@id, 'ControlGroupSelectView_AvailabilityInputSelectView_RadioButtonMkt[0-9]Fare[0-9]')]/@value").extract()
         prices = response.xpath("//span[@class='ADTprice']/text()").extract()
         for idx in range(0, len(flights)):
             flight = flights[idx].split("~")
