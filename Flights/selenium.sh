@@ -29,9 +29,9 @@ run ${ws_path}/AirBusan/airbusan.sh ${ws_path}/AirBusan &
 run ${ws_path}/VanillaAir/vanillaair.sh ${ws_path}/VanillaAir &
 
 # 虎航
-run ${ws_path}/Flight/TigerAir/tigerair.sh ${ws_path}/TigerAir &
+run ${ws_path}/TigerAir/tigerair.sh ${ws_path}/TigerAir &
 
 # 南方航空
-run ${ws_path}/Flight/CsAir/csair.sh ${ws_path}/CsAir &
+run ${ws_path}/CsAir/csair.sh ${ws_path}/CsAir &
 
 wait
