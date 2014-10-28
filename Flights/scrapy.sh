@@ -1,6 +1,6 @@
 #!/bin/sh
 
-path_ticket=/Users/rungchi_chen/Documents/travel/tekcit
+path_ticket=$(dirname $0)
 
 run(){
     local scrapy=$1
@@ -14,18 +14,18 @@ run(){
 }
 
 # China Airline
-run ${path_ticket}/Flights/ChinaAirline/chinaairline.sh ${path_ticket}/Flights/ChinaAirline/fromCity.cfg ${path_ticket}/Flights/ChinaAirline &
+run ${path_ticket}/ChinaAirline/chinaairline.sh ${path_ticket}/ChinaAirline/fromCity.cfg ${path_ticket}/ChinaAirline &
 
 # 亞洲航空
-run ${path_ticket}/Flights/AirAsia/asiaair.sh ${path_ticket}/Flights/AirAsia/fromCity.cfg ${path_ticket}/Flights/AirAsia &
+run ${path_ticket}/AirAsia/asiaair.sh ${path_ticket}/AirAsia/fromCity.cfg ${path_ticket}/AirAsia &
 
 # 酷航
-run ${path_ticket}/Flights/Flyscoot/flyscoot.sh ${path_ticket}/Flights/Flyscoot/fromCity.cfg ${path_ticket}/Flights/Flyscoot &
+run ${path_ticket}/Flyscoot/flyscoot.sh ${path_ticket}/Flyscoot/fromCity.cfg ${path_ticket}/Flyscoot &
 
 # 捷星航空
-run ${path_ticket}/Flights/JetStar/jetstar.sh ${path_ticket}/Flights/JetStar/fromCity.cfg ${path_ticket}/Flights/JetStar &
+run ${path_ticket}/JetStar/jetstar.sh ${path_ticket}/JetStar/fromCity.cfg ${path_ticket}/JetStar &
 
 # CebuPacificAir
-run ${path_ticket}/Flights/CebuPacificAir/cebupacificair.sh ${path_ticket}/Flights/CebuPacificAir/fromCity.cfg ${path_ticket}/Flights/CebuPacificAir &
+run ${path_ticket}/CebuPacificAir/cebupacificair.sh ${path_ticket}/CebuPacificAir/fromCity.cfg ${path_ticket}/CebuPacificAir &
 
 wait
