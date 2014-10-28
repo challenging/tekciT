@@ -43,6 +43,7 @@ do
                         countEmpty=$(expr ${countEmpty} + 1)
                     else
                         countEmpty=0
+                        sleep 2
                     fi
                 else
                     fail ${ret} "${SCRAPY} ${SCRAPY} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a dateStart=${dateStart} -a dateEnd=${dateEnd}"
