@@ -8,8 +8,7 @@ run(){
 
     for city in $(ls ${to}/toCity*cfg);
     do
-        to_cfg=$(basename ${city})
-        
+        file=$(basename ${city})
         ${scrapy} fromCity.cfg ${file}
     done
 }
