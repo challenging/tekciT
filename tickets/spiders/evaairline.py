@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
 import sys, exceptions
@@ -31,7 +32,7 @@ class EvaAirlineSpider(CrawlSpider):
         self.fromArea = None
         if fromArea == "europe":
             self.fromArea = u"歐洲"
-        elif fromArea in ["asis", "china"]:
+        elif fromArea in ["asia", "china"]:
             self.fromArea = u"亞洲"
         elif fromArea == "america":
             self.fromArea = u"美洲"
