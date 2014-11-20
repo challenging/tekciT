@@ -28,6 +28,8 @@ do
                 ret=$?
                 if [ ${ret} -eq 0 ]; then
                     success ${dateStart} ${fromCity} ${toCity} ${log}
+
+                    echo "${fromCity} - ${toCity}" >> ${logPath}
                     sleep 5
                 else
                     fail ${ret} "${SCRAPY} ${SCRAPY} ${spiderName} -a fromCity="${fromCity}" -a toCity="${toCity}" -a dateStart=${dateStart} -a dateEnd=${dateEnd}"
