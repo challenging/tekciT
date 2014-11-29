@@ -33,7 +33,7 @@ class VanillaAirSpider(CrawlSpider):
     def startWebDriver(self):
         self.display = Display(visible=0, size=(800, 600))
         self.display.start()
-        self.webDriver = webdriver.Firefox()
+        self.webDriver = webdriver.Chrome()
 
     def quitWebDriver(self):
         self.webDriver.quit()

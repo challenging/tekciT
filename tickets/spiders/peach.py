@@ -36,25 +36,11 @@ class PeachSpider(CrawlSpider):
     def startWebDriver(self):
         self.display = Display(visible=0, size=(800, 600))
         self.display.start()
-        self.webDriver = webdriver.Firefox()
+        self.webDriver = webdriver.Chrome()
 
     def quitWebDriver(self):
         self.webDriver.quit()
         self.display.stop()
-
-    '''
-    def start_requests(self):
-        for plusDate in range(int(self.dateStart), int(self.dateEnd)+1):
-            flyingDate = datetime.date.today() + datetime.timedelta(days=int(plusDate))
-
-            url = "http://book.flypeach.com/WebService/B2cService.asmx/GetQuoteSummary"
-            my_data = {"strFlightXml":"<flights><flight><flight_id>{8AF94BF6-A8B3-4A13-B3CF-07D72452209D}</flight_id><airline_rcd>MM</airline_rcd><flight_number>028</flight_number><origin_rcd>TPE</origin_rcd><destination_rcd>KIX</destination_rcd><fare_id>{3BACF111-A73F-475B-9A00-0C3F55E7C9FF}</fare_id><transit_airline_rcd></transit_airline_rcd><transit_flight_number></transit_flight_number><transit_flight_id></transit_flight_id><departure_date>20141030</departure_date><arrival_date>20141030</arrival_date><arrival_day>4</arrival_day><departure_day>4</departure_day><planned_departure_time>1850</planned_departure_time><planned_arrival_time>2215</planned_arrival_time><transit_departure_date></transit_departure_date><transit_departure_day></transit_departure_day><transit_arrival_date></transit_arrival_date><transit_arrival_day></transit_arrival_day><transit_planned_departure_time></transit_planned_departure_time><transit_planned_arrival_time></transit_planned_arrival_time><transit_airport_rcd></transit_airport_rcd><transit_fare_id></transit_fare_id><booking_class_rcd>U</booking_class_rcd><currency_rcd>TWD</currency_rcd></flight></flights>","strFlightType":"Outward"}
-            yield Request(url = url, method = "POST", body = json.dumps(my_data), headers = {"Content-Type": "application/json; charset=UTF-8"}, callback = self.ticket)
-
-    def ticket(self, response):
-        print json.loads(response.body)
-        print response.url
-    '''
 
     def parse(self, response):
         for plusDate in range(self.dateStart, self.dateEnd+1):
@@ -98,10 +84,6 @@ class PeachSpider(CrawlSpider):
                         for info in raw[1:len(raw)].split("|"):
                             [key, value] = info.split(":")
                             data[key] = value
-
-                        '''
-                        u'flight_id:{E512628A-CD8E-42E5-A3F7-1687BBCF0408}|fare_id:{499E838D-39D3-4359-B7C3-5037D16A86CB}|boarding_class_rcd:Y|booking_class_rcd:Q|airline_rcd:MM|flight_number:024|origin_rcd:TPE|destination_rcd:KIX|departure_date:20140917|planned_departure_time:1105|planned_arrival_time:1445|transit_airline_rcd:|transit_flight_number:|transit_airport_rcd:|transit_boarding_class_rcd:|transit_booking_class_rcd:|transit_flight_id:|transit_fare_id:|transit_planned_departure_time:|transit_planned_arrival_time:|total_tax:0.00|adult_fare:6520|child_fare:6520|infant_fare:0.0000|transit_departure_date:|arrival_date:20140917|number_of_adult:1|number_of_child:0|number_of_infant:0|currency_rcd:TWD|transit_arrival_date:'
-                        '''
 
                         ticket = PeachTicket()
                         ticket["company"] = self.name

@@ -34,7 +34,7 @@ class CsairSpider(scrapy.Spider):
     def startWebDriver(self):
         self.display = Display(visible=0, size=(800, 600))
         self.display.start()
-        self.browser = webdriver.Firefox()
+        self.browser = webdriver.Chrome()
 
     def quitWebDriver(self):
         self.browser.quit()
